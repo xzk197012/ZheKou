@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<link href="./resource/css/bootstrap.min.css?v=20180110" rel="stylesheet">
+{template 'haojingke/common/header'}
+<body>
+<div >
+    <!--<blockquote class="layui-elem-quote">合伙人-联盟ID【{$_GPC['jduniacid']}】</blockquote>-->
+
+    <input type="hidden" name="mid" value="{$_GPC['id']}" />
+    <input type="hidden" name="jduniacid" value="{$_GPC['jduniacid']}" />
+    <div class="layui-tab layui-tab-brief" lay-filter="partner"  >
+        <ul class="layui-tab-title">
+            <li class="layui-this">订单分析</li>
+            <li>引入订单</li>
+            <li>业绩订单</li>
+            <li>用户提单</li>
+            <li>推广位管理</li>
+            <li>合伙人会员</li>
+            <li>财务明细</li>
+        </ul>
+        <div class="layui-tab-content"   style="width:100%;background: #fff  0 0 no-repeat;
+	padding: 0px;
+	position: absolute;overflow-y:auto;
+	overflow: hidden;" >
+            <div class="layui-tab-item   layui-show x-body">
+                <div class="layui-row  ">
+                    <form action="" method="get"  enctype="multipart/form-data" class="layui-form layui-form-pane layui-col-md12">
+                        <div class="layui-form-item">
+                            <div class="layui-inline">
+                                <label class="layui-form-label">日期范围</label>
+                                <div class="layui-input-inline">
+                                    <input class="layui-input" placeholder="日期范围" name="daterange" id="daterange" value="{$_GPC['daterange']}">
+                                </div>
+                            </div>
+                            <div class="layui-inline">
+                                <label class="layui-form-label">推广位</label>
+                                <div class="layui-input-inline " style="width: 100px;">
+                                    <input type="text" value=""  name="positionId"  placeholder="推广位ID" autocomplete="off" class="layui-input">
+                                </div>
+                            </div>
+                            <div class="layui-inline">
+                                <label class="layui-form-label">订单状态</label>
+                                <div class="layui-input-inline " style="width: 100px;">
+                                    <select id="yn" >
+                                        <option value="" selected >全部</option>
+                                        <option value="1">有效</option>
+                                        <option value="0">取消</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="layui-inline">
+                                <div class="layui-input-inline " style="width: 100px;">
+                                    <input title="订单数量" type="checkbox" onchange="getstatistics()" checked lay-filter="count"  id="count" style="vertical-align:middle;" >
+                                </div>
+                            </div>
+                            <div class="layui-inline">
+                                <div class="layui-input-inline " style="width: 100px;">
+                                    <input title="订单金额" type="checkbox" onchange="getstatistics()" lay-filter="cosprice" id="cosprice"  style="vertical-align:middle;" >
+                                </div>
+                            </div>
+                            <div class="layui-inline">
+                                <div class="layui-input-inline " style="width: 100px;">
+                                    <input title="佣金金额" type="checkbox" onchange="getstatistics()" lay-filter="commission" id="commission" style="vertical-align:middle;" >
+                                </div>
+                            </div>
+                            <div class="layui-inline">
+                                <button class="layui-btn" type="button" onclick="getstatistics()"  lay-submit="" lay-filter="sreach"><i class="layui-icon">&#xe615;</i></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div>
+                    <!-- 为ECharts准备一个具备大小（宽高）的Dom -->
+                    <div id="main" style="width: 100%;height:400px;"></div>
+                </div>
+            </div>
+            <div class="layui-tab-item ">
+                <iframe src='{php echo webUrl('partner/importorder').'&jduniacid='.$_GPC['jduniacid'].'&id='.$_GPC['id'];}' frameborder="0" scrolling="yes" style="height:2000px;width:100%;"  class="x-iframe"></iframe>
+            </div>
+            <div class="layui-tab-item " style="height: 100%;width:100%;">
+                <iframe src='{php echo webUrl('partner/order').'&jduniacid='.$_GPC['jduniacid'].'&id='.$_GPC['id'];}' frameborder="0" scrolling="yes" style="height:2000px;width:100%;"  class="x-iframe"></iframe>
+            </div>
+            <div class="layui-tab-item ">
+                <iframe src='{php echo webUrl('partner/userorder').'&jduniacid='.$_GPC['jduniacid'].'&id='.$_GPC['id'];}' frameborder="0" scrolling="yes" style="height:2000px;width:100%;"  class="x-iframe"></iframe>
+            </div>
+            <div class="layui-tab-item ">
+                <iframe src='{php echo webUrl('partner/position').'&jduniacid='.$_GPC['jduniacid'].'&id='.$_GPC['id'];}' frameborder="0" scrolling="yes" style="height:2000px;width:100%;"  class="x-iframe"></iframe>
+            </div>
+            <div class="layui-tab-item ">
+                <iframe src='{php echo webUrl('partner/member').'&jduniacid='.$_GPC['jduniacid'].'&id='.$_GPC['id'];}' frameborder="0" scrolling="yes" style="height:2000px;width:100%;"  class="x-iframe"></iframe>
+            </div>
+            <div class="layui-tab-item ">
+                <iframe src='{php echo webUrl('partner/logs').'&jduniacid='.$_GPC['jduniacid'].'&id='.$_GPC['id'];}' frameborder="0" scrolling="yes" style="height:2000px;width:100%;"  class="x-iframe"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+<script type="text/javascript" src="{NETS_HAOJIK_WEB_STYLE}js/echarts.min.js?v=201801291600"></script>
+<script>
+
+    var layer;
+    // 基于准备好的dom，初始化echarts实例
+    var myChart = echarts.init(document.getElementById('main'));
+    layui.use(['laydate','form','layer','element','table'], function(){
+        var laydate = layui.laydate,
+            form = layui.form
+            ,layer = layui.layer,
+            element = layui.element,
+            table = layui.table;
+//
+//        table.render({
+//            elem: '#test'
+//            ,url:'http://www.layui.com/demo/table/user/'
+//            ,cols: [[
+//                {field:'orderId', width:80, title: 'ID', sort: true}
+//                ,{field:'username', width:80, title: '用户名'}
+//                ,{field:'sex', width:80, title: '性别', sort: true}
+//                ,{field:'city', width:80, title: '城市'}
+//                ,{field:'sign', title: '签名', minWidth: 150}
+//                ,{field:'experience', width:80, title: '积分', sort: true}
+//                ,{field:'score', width:80, title: '评分', sort: true}
+//                ,{field:'classify', width:80, title: '职业'}
+//                ,{field:'wealth', width:135, title: '财富', sort: true}
+//            ]]
+//            ,page: true
+//        });
+
+        //执行一个laydate实例
+        laydate.render({
+            elem: '#daterange' //指定元素
+            ,range: '~'
+            , max:0
+        });
+//        element.on('tab(partner)', function(data){
+//            layer.msg(this.innerText);
+//            console.log(this); //当前Tab标题所在的原始DOM元素
+////            console.log(data.index); //得到当前Tab的所在下标
+////            console.log(data.elem); //得到当前的Tab大容器
+//        });
+        form.on('checkbox(count)', function(data){
+            getstatistics();
+        });
+        form.on('checkbox(cosprice)', function(data){
+            getstatistics();
+        });
+        form.on('checkbox(commission)', function(data){
+            getstatistics();
+        });
+        form.on('button(sreach)', function(data){
+            getstatistics();
+        });
+        getstatistics();
+    });
+    function getstatistics() {
+        var count = $('#count').is(':checked');
+        var cosprice = $('#cosprice').is(':checked');
+        var commission = $('#commission').is(':checked');
+        var id = $("input[name='mid']").val().trim();
+        var jduniacid = $("input[name='jduniacid']").val().trim();
+        var positionId = $("input[name='positionId']").val().trim();
+        var daterange = $("input[name='daterange']").val().trim();
+        var yn =  $("#yn").val().trim();
+        var data = {
+            operation: "post",
+            id:id,
+            jduniacid:jduniacid,
+            positionId:positionId,
+            daterange:daterange,
+            yn:yn
+        };
+        var loadii = layer.load();
+        $.ajax({
+            url: "<?php echo webUrl('partner/getstatistics')?>",
+            type: 'post',
+            data: data,
+            cache: false,
+            dataType: "json",
+            async: true, //默认为true 异步
+            error: function (XMLHttpRequest, textStatus, errorThrown) {
+                layer.close(loadii);
+            },
+            success: function (result) {
+                layer.close(loadii);
+                if(result.status_code=='200'){
+                    myChart.clear();
+                    var seriesdata=[];
+                    if(count){
+                        var item={
+                            name:'订单数量',
+                            type:'line',
+                            itemStyle : { normal: {label : {show: true}}},
+                            data:result.data.count
+                        }
+                        seriesdata.push(item);
+                    }
+                    if(cosprice){
+                        var item={
+                            name:'订单金额',
+                            type:'line',
+                            itemStyle : { normal: {label : {show: true,position:'top',   formatter: ' ￥{c}'}}},
+                            data:result.data.cosPrice
+                        }
+                        seriesdata.push(item);
+                    }
+                    if(commission){
+                        var item=
+                            {
+                                name:'佣金金额',
+                                type:'line',
+                                itemStyle : { normal: {label : {show: true,position:'top',   formatter: ' ￥{c}'}}},
+                                data:result.data.commission
+                            }
+                        seriesdata.push(item);
+                    }
+                    option ={
+                        title: {
+                            text: '交易走势图'
+                        },
+                        tooltip: {
+                            trigger: 'axis'
+                        },
+                        legend: {
+                            data:['交易走势图']
+                        },
+                        toolbox: {
+                            show: true,
+                            feature: {
+                                dataZoom: {
+                                    yAxisIndex: 'none'
+                                },
+                                dataView: {readOnly: false},
+                                magicType: {type: ['line', 'bar']},
+                                restore: {},
+                                saveAsImage: {}
+                            }
+                        },
+                        xAxis:  {
+                            type: 'category',
+                            boundaryGap: true,
+                            data:result.data.days
+                        },
+                        yAxis: {
+                        },
+                        series: seriesdata
+                    }
+                    // 使用刚指定的配置项和数据显示图表。
+                    myChart.setOption(option);
+                }
+                else
+                    layer.msg(result.result.message)
+
+            }
+        });
+    }
+
+</script>

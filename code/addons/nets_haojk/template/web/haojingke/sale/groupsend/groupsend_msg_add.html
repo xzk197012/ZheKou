@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+{template 'haojingke/common/header'}
+<body>
+<div class="x-body">
+    <form action="" method="post"  enctype="multipart/form-data" class="layui-form">
+        <input type="hidden" name="messageid" value="{$_GPC['mid']}">
+        <div class="layui-form-item">
+            <label class="layui-form-label">
+                <span class="x-red">*</span>分组选择
+            </label>
+            <div class="layui-input-inline">
+                <select  id="fans_mass" name="group" lay-verify="group">
+                    <option value="">请选择</option>
+                    <!--<optgroup label="粉丝组">
+                        <option value="fanscount">全部粉丝({$fans_mass['fanscount']})</option>
+                    </optgroup>-->
+                    <optgroup label="盟主组">
+                        <option value="leadercount">盟主({$fans_mass['leadercount']})</option>
+                    </optgroup>
+                    <optgroup label="会员组">
+                        <option value="usercount">会员({$fans_mass['usercount']})</option>
+                    </optgroup>
+                </select>
+            </div>
+            <!--<label class="layui-form-label">-->
+            <!--</label>-->
+            <div class="layui-form-mid layui-word-aux">
+                <span class="x-red">*必填</span>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">
+            </label>
+            <div class="layui-input-block">
+                <input type="hidden" name="token" value="{$_W['token']}" />
+                <button  type="submit" class="layui-btn" lay-filter="add" lay-submit="">
+                    提交
+                </button>
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+</html>
+<script>
+
+    layui.use(['form','layer'], function(){
+        $ = layui.jquery;
+        var form = layui.form
+            ,layer = layui.layer;
+
+        //自定义验证规则
+        form.verify({
+            group: function(value){
+                if(value==''){
+                    return '请选择分类！';
+                }
+            }
+        });
+
+        //监听提交
+        form.on('submit(add)', function(data){
+            var loadii = layer.load();
+            console.log(data);
+            //发异步，把数据提交给php
+            var ajaxurl="<?php echo webUrl('sale/groupsend/groupsend_msg_addpost')?>";
+            $.post(ajaxurl,data.field,function(res){
+                var res=JSON.parse(res);
+                layer.close(loadii);
+                if (res.status == 1) {
+                    layer.alert(res.result.message, {icon: 6,closeBtn: 0},function () {
+                        // 获得frame索引
+                        var index = parent.layer.getFrameIndex(window.name);
+                        //关闭当前frame
+                        parent.layer.close(index);
+//                        parent.location.href=parent.location.href;
+                    });
+                } else {
+                    layer.msg(res.result.message);
+                }
+            });
+            return false;
+        });
+    });
+
+</script>

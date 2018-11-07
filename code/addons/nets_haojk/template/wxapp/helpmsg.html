@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+    <meta content="telephone=no" name="format-detection"/>
+    <link rel="stylesheet" href="../addons/nets_haojk/template/wxapp/ydui.css">
+    <link rel="stylesheet" href="../addons/nets_haojk/template/wxapp/swiper.min.css">
+    <link rel="stylesheet" href="../addons/nets_haojk/template/wxapp/style.css?v=20171214000003">
+    <title>{$_W['page']['title']}</title>
+</head>
+<style>
+    .m-navbar {
+        height: 40px;}
+.navbar-center{width:90%; margin:0 auto;height: 40px;}
+.navbar-title{ font-size:16px !important;}
+</style>
+<body style="background:#fff">
+<div class="g-flexview pages" id="myorder">
+    <!--头部导航-->
+    <header class="m-navbar">
+        <div class="navbar-center">
+            <span class="navbar-title">{$data['title']}</span>
+        </div>
+    </header>
+    <!--滚动区域-->
+    <div class="g-scrollview" style="margin-top:0px">
+        <div class="m-tab" data-ydui-tab>
+        	<div style="padding:10px; font-size:14px;">
+            	{$data['content']} 
+            </div>
+        </div>
+    </div>
+</div>
+{php echo register_jssdk(false);} 
+<script>
+wx.ready(function () {
+	sharedata = {
+		title: "{$data['title']}",
+		desc: '{$data["remark"]}',
+		link: '{$_W["siteurl"]}',
+		imgUrl: '{$data["picture"]}',
+		success: function(){
+			//alert('success');
+		},
+		cancel: function(){
+			//alert('cancel');
+		}
+	};
+	wx.onMenuShareAppMessage(sharedata);
+	wx.onMenuShareTimeline(sharedata);
+});
+</script>
+</body>
+</html>

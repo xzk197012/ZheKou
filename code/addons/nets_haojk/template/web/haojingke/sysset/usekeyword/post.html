@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<link href="./resource/css/bootstrap.min.css?v=20180110" rel="stylesheet">
+<link href="./resource/css/common.css?v=20170719" rel="stylesheet">
+{template 'haojingke/common/header'}
+<script type="text/javascript">
+    if(navigator.appName == 'Microsoft Internet Explorer'){
+        if(navigator.userAgent.indexOf("MSIE 5.0")>0 || navigator.userAgent.indexOf("MSIE 6.0")>0 || navigator.userAgent.indexOf("MSIE 7.0")>0) {
+            alert('您使用的 IE 浏览器版本过低, 推荐使用 Chrome 浏览器或 IE8 及以上版本浏览器.');
+        }
+    }
+    window.sysinfo = {
+    {if !empty($_W['uniacid'])}'uniacid': '{$_W['uniacid']}',{/if}
+    {if !empty($_W['acid'])}'acid': '{$_W['acid']}',{/if}
+    {if !empty($_W['openid'])}'openid': '{$_W['openid']}',{/if}
+    {if !empty($_W['uid'])}'uid': '{$_W['uid']}',{/if}
+    'isfounder': {if !empty($_W['isfounder'])}1{else}0{/if},
+    'siteroot': '{$_W['siteroot']}',
+        'siteurl': '{$_W['siteurl']}',
+        'attachurl': '{$_W['attachurl']}',
+        'attachurl_local': '{$_W['attachurl_local']}',
+        'attachurl_remote': '{$_W['attachurl_remote']}',
+        'module' : {'url' : '{if defined('MODULE_URL')}{MODULE_URL}{/if}', 'name' : '{if defined('IN_MODULE')}{IN_MODULE}{/if}'},
+    'cookie' : {'pre': '{$_W['config']['cookie']['pre']}'},
+    'account' : {php echo json_encode($_W['account'])},
+    };
+</script>
+<script>var require = { urlArgs: 'v=20170915' };</script>
+<script type="text/javascript" src="./resource/js/lib/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="./resource/js/lib/bootstrap.min.js"></script>
+<script type="text/javascript" src="./resource/js/app/util.js?v=20170719"></script>
+<script type="text/javascript" src="./resource/js/app/common.min.js?v=20170719"></script>
+<script type="text/javascript" src="./resource/js/require.js?v=20170719"></script>
+    <body>
+        <div class="x-body">
+
+            <form id="initform" action="" method="post"  enctype="multipart/form-data" class="layui-form ">
+                <blockquote class="layui-elem-quote">关键词</blockquote>
+                <div class="form-group">
+                    <label class="col-xs-12 col-sm-3 col-md-2 control-label">关键词 :</label>
+                        <div class="col-sm-9 col-xs-12">
+                            <td class="text-center" >
+                                 <div class="input-group " >
+                                    <input type="text" name="keyword"  style="width:500px" class="form-control" value="{$data['keyword']}" >
+                                </div>
+                            </td>
+                            <div class="help-block">客服消息用户发送指定关键词回复内容</div>
+                        </div>
+                </div>
+                
+                <blockquote class="layui-elem-quote">回复内容</blockquote>
+                <div class="form-group">
+                    <label class="col-xs-12 col-sm-3 col-md-2 control-label">图标 :</label>
+                        <div class="col-sm-9 col-xs-12">
+                            <td class="text-center" >
+                                 <div class="input-group " >
+                                     {php echo tpl_form_field_image('picture',$data['picture'])}
+                                </div>
+                            </td>
+                            <div class="help-block">设置图片</div>
+                        </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-xs-12 col-sm-3 col-md-2 control-label">标题 :</label>
+                        <div class="col-sm-9 col-xs-12">
+                            <td class="text-center" >
+                                 <div class="input-group " >
+                                     <input type="text" name="title"  style="width:500px" class="form-control" value="{$data['title']}" >
+                                </div>
+                            </td>
+                            <div class="help-block">标题</div>
+                        </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-xs-12 col-sm-3 col-md-2 control-label">描述 :</label>
+                        <div class="col-sm-9 col-xs-12">
+                            <td class="text-center" >
+                                 <div class="input-group " >
+                                     <input type="text"   class="form-control" style=" width:500px;" name="remark" value="{$data['remark']}"></input> 
+                                </div>
+                            </td>
+                            <div class="help-block">描述</div>
+                        </div>
+                </div>
+                <div class="layui-container">
+                    <div class="layui-row  layui-col-space5">
+                        {php echo tpl_ueditor('content', $data['content']);}
+                    </div>
+                    <xblock>
+                        <input type="hidden" name="help_name" value="帮助"/>
+                        <input type="hidden" name="op" value="help"/>
+                        <a  name="button" value="返回" class="layui-btn layui-btn-normal " href="{php echo webUrl('sysset/usekeyword');}" />返回</a>
+                        <input type="submit" name="submit" value="提交" class="layui-btn " />
+                        <input type="hidden" name="token" value="{$_W['token']}" />
+                    </xblock>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

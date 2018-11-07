@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<link href="./resource/css/bootstrap.min.css?v=20180110" rel="stylesheet">
+{template 'haojingke/common/header'}
+<body>
+<div class="x-body">
+    <div class="layui-row" style="height: 80px;width: 100%">
+        <form action="" method="get"  enctype="multipart/form-data" class="layui-form layui-form-pane layui-col-md12" style="width: 50%;float: left;">
+            <input type="hidden" name="m" value="nets_haojk">
+            <input type="hidden" name="do" value="web">
+            <input type="hidden" name="r" value="number.index">
+            <input type="hidden" name="a" value="entry">
+            <input type="hidden" name="c" value="site">
+
+            <div class="layui-form-item">
+                <div class="layui-inline">
+                    <div class="layui-input-inline" style="margin-right: 0">
+                        <input type="text" value="{$_GPC['number']}"  name="number"  placeholder="请输入手机号码添加" autocomplete="off" class="layui-input">
+                    </div>
+                  <!-- <button class="layui-btn" onclick="hjk_dialog_show('添加号码','{php echo webUrl('number/number_add');}')">添加</button> -->
+                  <button class="layui-btn"  lay-submit="" lay-filter="input">添加</button>
+                </div>
+                <div class="layui-inline">
+                    <div class="layui-input-inline" style="margin-right: 0">
+                        <input type="text" value="{$_GPC['keyword']}"  name="keyword"  placeholder="请输入手机号码查询" autocomplete="off" class="layui-input">
+                    </div>
+                    <button class="layui-btn"  lay-submit="" lay-filter="sreach"><i class="layui-icon">&#xe615;</i></button>
+                </div>
+                 
+            </div>
+        </form>
+        <div style="height: 60px;width: 50%;float: right;">
+        <form enctype="multipart/form-data" action="<?php echo webUrl('number/upExecel')?>" method="post" style="width: 50%;float: left;margin-top: 5px">
+            <input type="file" name="myfile" style="float: left;margin-top: 5px;width: 55%;" />
+            <input type="submit" value="excel导入" style="width: 100px;height: 30px!important;line-height: 30px!important;background: #ff0037;color: #fff;border: none!important;cursor: pointer;border-radius: 3px;margin-left: 10px;"/>
+        </form>
+        <div class="layui-inline" style="width: 20%;height: 100%;float: left;">
+                  <a href="<?php echo webUrl('number/expExecel')?>"><button class="layui-btn">excel导出</button></a>
+                </div>
+        <div class="layui-inline" style="float: left;margin-top: 8px">
+                  <a href="{MODULE_URL}haomachi.xls" target="_blank" style="color: red;font-size: 16px">excel模板下载</a>
+                </div>
+        </div>
+    </div>
+    
+    <table class="layui-table">
+        <thead>
+        <tr>
+            <th>会员ID</th>
+            <th>会员</th>
+            <th>手机号码</th>
+            <th>时间</th>
+            <th>操作</th>
+        </tr>
+        </thead>
+        <tbody>
+        {loop $list $r}
+        <tr>
+            <td class="text-center">
+            {if !empty($r['memberid'])}
+                ID:{$r['memberid']}
+             {/if}
+             {if empty($r['memberid'])}
+                无
+             {/if}
+            </td>
+            <td class="text-center">
+
+                {if !empty($r['avatar'])}
+                <img src="{php echo str_replace('132132','132',tomedia($r['avatar']))}" style='width:30px;height:30px;padding:1px;border:1px solid #ccc' />
+
+                {/if}
+
+                <span style="font-size:11px">
+                        {if !empty($r['nickname'])}
+                ID:{$r['nickname']}
+             {/if}
+             {if empty($r['nickname'])}
+                无
+             {/if}
+                        </span>
+                <br>
+               <!--  {$r['openid']} -->
+            </td>
+           
+            <td class="text-center">
+                {$r['phone']}
+            </td>
+            <td class="text-center">
+                <?php echo date("Y-m-d H:i:s",$r['created_at'])?>
+            </td>
+            <td class="td-manage">
+                <a onclick="number_delete('{$r['phone']}')" href="javascript:;" class="layui-btn   layui-btn-mini  layui-btn-danger" ><i class="iconfont">&#xe69d;</i> 删除</a>
+            </td>
+        </tr>
+        {/loop}
+        </tbody>
+    </table>
+
+    {$pager}
+
+</div>
+</body>
+</html>
+
+<script>
+    /*删除*/
+    function number_delete(phone){
+        layer.confirm('删除后不可恢复,确认要删除么？',function(index){
+            var loadii = layer.load();
+            var ajaxurl="<?php echo webUrl('number/number_delete').'&phone='?>"+phone;
+            $.post(ajaxurl,function(res){
+                var res=JSON.parse(res);
+                layer.close(loadii);
+                if(res.status==1){
+                    layer.alert(res.result.message, {icon: 6,closeBtn: 0},function () {
+                        location.href=location.href;
+                    });
+                }else{
+                    layer.msg("操作失败");
+                }
+            });
+        });
+    }
+
+
+
+    layui.use('laydate', function(){
+        var laydate = layui.laydate;
+
+        //执行一个laydate实例
+        laydate.render({
+            elem: '#daterange' //指定元素
+            ,range: '~'
+            , max:0
+        });
+    });
+
+</script>

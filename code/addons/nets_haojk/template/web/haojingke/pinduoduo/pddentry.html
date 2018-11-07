@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+{template 'haojingke/common/header'}
+<body>
+<div class="x-body">
+    <blockquote class="layui-elem-quote layui-text">
+        提供小程序AppID和入口链接给第三方，第三方可在公众号菜单或公众号文章中接入小程序，全自动跟踪佣金。
+    </blockquote>
+    <div class="layui-form-item">
+        <label class="layui-form-label">
+            多多首页入口
+        </label>
+        <div class="layui-input-block">
+            <input type="text"  id="gouwu"
+                   autocomplete="off" class="layui-input layui-disabled" value="page/pinduoduo/pages/index4/index">
+            <button  type="button" onclick="copygouwu()" class="layui-btn" >
+                复制
+            </button>
+        </div>
+
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">
+            代理首页入口
+        </label>
+        <div class="layui-input-block">
+            <input type="text"  id="daili"
+                   autocomplete="off" class="layui-input layui-disabled" value="page/pinduoduo/pages/index4/index?from_uid=会员ID">
+            <button  type="button" onclick="copydaili()" class="layui-btn" >
+                复制
+            </button>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">
+            商品详情入口
+        </label>
+        <div class="layui-input-block">
+            <input type="text"  id="goods"
+                   autocomplete="off" class="layui-input layui-disabled" value="page/pinduoduo/pages/detail/index?skuId=xxx（商品ID）&from_uid=xxx（会员ID）">
+            <button  type="button" onclick="copygoods()" class="layui-btn" >
+                复制
+            </button>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">
+            搜索入口
+        </label>
+        <div class="layui-input-block">
+            <input type="text"  id="search"
+                   autocomplete="off" class="layui-input layui-disabled" value="haojk/pages/search/index">
+            <button  type="button" onclick="copysearch()" class="layui-btn" >
+                复制
+            </button>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">
+            会员中心入口
+        </label>
+        <div class="layui-input-block">
+            <input type="text"  id="huiyuan"
+                   autocomplete="off" class="layui-input layui-disabled" value="haojk/pages/my/index">
+            <button  type="button" onclick="copyhuiyuan()" class="layui-btn" >
+                复制
+            </button>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <label class="layui-form-label">
+            抽奖入口
+        </label>
+        <div class="layui-input-block">
+            <input type="text"  id="choujiang"
+                   autocomplete="off" class="layui-input layui-disabled" value="page/pinduoduo/pages/Prizedraw/index">
+            <button  type="button" onclick="copychoujiang()" class="layui-btn" >
+                复制
+            </button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script>
+    function copygouwu() {
+        var d = document.getElementById("gouwu");
+        d.select();
+        document.execCommand("Copy");
+        layer.msg("复制成功！");
+    }
+    function copyhuiyuan() {
+        var d = document.getElementById("huiyuan");
+        d.select();
+        document.execCommand("Copy");
+        layer.msg("复制成功！");
+    }
+    function copysearch() {
+        var d = document.getElementById("search");
+        d.select();
+        document.execCommand("Copy");
+        layer.msg("复制成功！");
+    }
+    function copydaili() {
+        var d = document.getElementById("daili");
+        d.select();
+        document.execCommand("Copy");
+        layer.msg("复制成功！");
+    }
+    function copygoods() {
+        var d = document.getElementById("goods");
+        d.select();
+        document.execCommand("Copy");
+        layer.msg("复制成功！");
+    }
+    function copychoujiang() {
+        var d = document.getElementById("choujiang");
+        d.select();
+        document.execCommand("Copy");
+        layer.msg("复制成功！");
+    }
+</script>

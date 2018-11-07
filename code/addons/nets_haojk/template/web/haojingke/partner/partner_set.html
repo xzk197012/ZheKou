@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<link href="./resource/css/bootstrap.min.css?v=20180110" rel="stylesheet">
+<link href="./resource/css/common.css?v=20170719" rel="stylesheet">
+{template 'haojingke/common/header'}
+<script>var require = { urlArgs: 'v=201180110' };</script>
+<script type="text/javascript" src="./resource/js/lib/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="./resource/js/lib/bootstrap.min.js"></script>
+<script type="text/javascript" src="./resource/js/app/util.js?v=20180110"></script>
+<script type="text/javascript" src="./resource/js/app/common.min.js?v=20170719"></script>
+<script type="text/javascript" src="./resource/js/require.js?v=20180110"></script>
+<script type="text/javascript" src="{NETS_HAOJIK_WEB_STYLE}js/jquery.nestable.js"></script>
+<body>
+<div class="x-body">
+    <form action="" method="post"  enctype="multipart/form-data" class="layui-form">
+        <div class="layui-form-item">
+            <label class="layui-form-label">
+                <span class="x-red">*</span>图片介绍
+            </label>
+            <div class="layui-input-inline4">
+                {php echo tpl_form_field_image('partnerimg',$r['partnerimg'])}
+            </div>
+            <!--<label class="layui-form-label">-->
+            <!--</label>-->
+            <div class="layui-form-mid layui-word-aux">
+                <span class="x-red">*</span>设置介绍图片
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">
+                <span class="x-red">*</span>文字介绍
+            </label>
+            <div class="layui-input-inline4">
+                <textarea placeholder="请输入文字介绍" class="layui-textarea" name="partnerdesc">{$r['partnerdesc']}</textarea>
+            </div>
+            <!--<label class="layui-form-label">-->
+            <!--</label>-->
+            <div class="layui-form-mid layui-word-aux">
+                <span class="x-red">*</span>文字介绍
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">
+                <span class="x-red">*</span>是否开启合伙人
+            </label>
+            <div class="layui-input-block">
+                <label ><input title="&nbsp;开启 "  name="isopenpartner" type="radio" value="1" {if $r['isopenpartner']==1}checked="checked"{/if}/></label>
+                &emsp;&emsp;<label ><input title="&nbsp;关闭&nbsp;&nbsp;(关闭后无法申请合伙人)"  name="isopenpartner" type="radio" value="2" {if $r['isopenpartner']==0}checked="checked"{/if}/></label>
+            </div>
+            <label class="layui-form-label">
+            </label>
+            <div class="layui-form-mid layui-word-aux">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">
+            </label>
+            <div class="layui-input-block">
+                <input type="hidden" name="menu_name" value="分享设置"/>
+                <input type="hidden" name="op" value="post"/>
+                <input type="hidden" name="token" value="{$_W['token']}" />
+                <button  type="submit" class="layui-btn" lay-filter="add" lay-submit="">
+                    提交
+                </button>
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+</html>
+<script>
+
+
+</script>

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<link href="./resource/css/bootstrap.min.css?v=20180110" rel="stylesheet">
+{template 'haojingke/common/header'}
+<script>var require = { urlArgs: 'v=201180110' };</script>
+<script type="text/javascript" src="./resource/js/lib/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="./resource/js/lib/bootstrap.min.js"></script>
+<script type="text/javascript" src="./resource/js/app/util.js?v=20180110"></script>
+<script type="text/javascript" src="./resource/js/require.js?v=20180110"></script>
+<script type="text/javascript" src="{NETS_HAOJIK_WEB_STYLE}js/jquery.nestable.js"></script>
+<body>
+<div class="x-body">
+    <form action="" method="post"  enctype="multipart/form-data" class="layui-form">
+        <input type="hidden" name="mid" value="{$_GPC['mid']}">
+        <div class="layui-form-item">
+            <label class="layui-form-label">
+                顶部颜色
+            </label>
+            <div class="layui-input-inline3">
+                <input type="text" name="topcolor" lay-verify="topcolor"  placeholder="请选择颜色"
+                       {if !empty($data['topcolor'])} style="background-color:{$data['topcolor']}" {/if}
+                       autocomplete="off" class="layui-input w100"  value="{$data['topcolor']}">
+                <button class="layui-btn layui-btn-normal colorpicker" type="button">选择颜色 <i class="fa fa-caret-down"></i></button>
+                <button class="layui-btn layui-btn-danger colorclean" type="button"> <i class="iconfont">&#xe69a;</i> </button>
+            </div>
+            <!--<label class="layui-form-label">-->
+            <!--</label>-->
+            <div class="layui-form-mid layui-word-aux">
+                <span class="x-red"></span>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">
+                <span class="x-red">*</span>首标题
+            </label>
+            <div class="layui-input-inline4">
+                <input type="text" name="title" lay-verify="title"
+                       autocomplete="off" class="layui-input" value="{$data['title']}">
+            </div>
+            <div class="layui-input-inline3">
+                <input type="text" name="titlecolor" lay-verify="titlecolor"  placeholder="请选择颜色"
+                       {if !empty($data['titlecolor'])} style="background-color:{$data['titlecolor']}" {/if}
+                       autocomplete="off" class="layui-input w100"  value="{$data['titlecolor']}">
+                <button class="layui-btn layui-btn-normal colorpicker" type="button">选择颜色 <i class="fa fa-caret-down"></i></button>
+                <button class="layui-btn layui-btn-danger colorclean" type="button"> <i class="iconfont">&#xe69a;</i> </button>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">
+                <span class="x-red">*</span>任务名称
+            </label>
+            <div class="layui-input-inline4">
+                <input type="text" name="taskname" lay-verify="taskname"
+                       autocomplete="off" class="layui-input" value="{$data['taskname']}">
+            </div>
+            <div class="layui-input-inline3">
+                <input type="text" name="tasknamecolor" lay-verify="tasknamecolor"  placeholder="请选择颜色"
+                       {if !empty($data['tasknamecolor'])} style="background-color:{$data['tasknamecolor']}" {/if}
+                       autocomplete="off" class="layui-input w100"  value="{$data['tasknamecolor']}">
+                <button class="layui-btn layui-btn-normal colorpicker" type="button">选择颜色 <i class="fa fa-caret-down"></i></button>
+                <button class="layui-btn layui-btn-danger colorclean" type="button"> <i class="iconfont">&#xe69a;</i> </button>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">
+                <span class="x-red">*</span>处理类型
+            </label>
+            <div class="layui-input-inline4">
+                <input type="text" name="tasktype" lay-verify="tasktype"
+                       autocomplete="off" class="layui-input" value="{$data['tasktype']}">
+            </div>
+            <div class="layui-input-inline3">
+                <input type="text" name="tasktypecolor" lay-verify="tasktypecolor"  placeholder="请选择颜色"
+                       {if !empty($data['tasktypecolor'])} style="background-color:{$data['tasktypecolor']}" {/if}
+                       autocomplete="off" class="layui-input w100"  value="{$data['tasktypecolor']}">
+                <button class="layui-btn layui-btn-normal colorpicker" type="button">选择颜色 <i class="fa fa-caret-down"></i></button>
+                <button class="layui-btn layui-btn-danger colorclean" type="button"> <i class="iconfont">&#xe69a;</i> </button>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">
+                <span class="x-red">*</span>处理结果
+            </label>
+            <div class="layui-input-inline4">
+                <input type="text" name="taskresult" lay-verify="taskresult"
+                       autocomplete="off" class="layui-input" value="{$data['taskresult']}">
+            </div>
+            <div class="layui-input-inline3">
+                <input type="text" name="taskresultcolor" lay-verify="taskresultcolor"  placeholder="请选择颜色"
+                       {if !empty($data['taskresultcolor'])} style="background-color:{$data['taskresultcolor']}" {/if}
+                       autocomplete="off" class="layui-input w100"  value="{$data['taskresultcolor']}">
+                <button class="layui-btn layui-btn-normal colorpicker" type="button">选择颜色 <i class="fa fa-caret-down"></i></button>
+                <button class="layui-btn layui-btn-danger colorclean" type="button"> <i class="iconfont">&#xe69a;</i> </button>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">
+                尾备注
+            </label>
+            <div class="layui-input-inline4">
+                <textarea placeholder="请输入备注" class="layui-textarea" name="remark">{$data['remark']}</textarea>
+            </div>
+            <div class="layui-input-inline3">
+                <input type="text" name="remarkcolor" lay-verify="remarkcolor"  placeholder="请选择颜色"
+                       {if !empty($data['remarkcolor'])} style="background-color:{$data['remarkcolor']}" {/if}
+                       autocomplete="off" class="layui-input w100"  value="{$data['remarkcolor']}">
+                <button class="layui-btn layui-btn-normal colorpicker" type="button">选择颜色 <i class="fa fa-caret-down"></i></button>
+                <button class="layui-btn layui-btn-danger colorclean" type="button"> <i class="iconfont">&#xe69a;</i> </button>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">
+                详情URL (用户点击跳转 公众号必须为http://或https:// 开头，小程序请填页面链接，可带参数)
+            </label>
+            <div class="layui-input-block">
+                <input type="text" name="url"
+                       autocomplete="off" class="layui-input" value="{$data['url']}">
+            </div>
+            <!--<label class="layui-form-label">-->
+            <!--</label>-->
+            <div class="layui-form-mid layui-word-aux">
+                <span class="x-red"></span>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">
+            </label>
+            <div class="layui-input-block">
+                <input type="hidden" name="token" value="{$_W['token']}" />
+                <button  type="submit" class="layui-btn" lay-filter="add" lay-submit="">
+                    提交
+                </button>
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+</html>
+<script>
+    $(function(){
+        $(".colorpicker").each(function(){
+            var elm = this;
+            util.colorpicker(elm, function(color){
+                $(elm).prev("input").val(color.toHexString());
+                $(elm).prev().css("background-color", color.toHexString());
+            });
+        });
+        $(".colorclean").click(function(){
+            $(this).prev().prev().val("");
+            $(this).prev().prev().css("background-color", "#FFF");
+        });
+    });
+
+    layui.use(['form','layer'], function(){
+        $ = layui.jquery;
+        var form = layui.form
+            ,layer = layui.layer;
+
+        //自定义验证规则
+        form.verify({
+            taskname: function(value){
+                if(value==''){
+                    return '请输入任务名称！';
+                }
+            },
+            title: function(value){
+                if(value==''){
+                    return '请输入任务标题！';
+                }
+            },
+            tasktype: function(value){
+                if(value==''){
+                    return '请输入任务处理类型！';
+                }
+            },
+            taskresult: function(value){
+                if(value==''){
+                    return '请输入任务处理结果！';
+                }
+            }
+        });
+        //监听提交
+        form.on('submit(add)', function(data){
+            var loadii = layer.load();
+            console.log(data);
+            //发异步，把数据提交给php
+            var ajaxurl="<?php echo webUrl('sale/groupsend/groupsend_msg_temp_addpost')?>";
+            $.post(ajaxurl,data.field,function(res){
+                var res=JSON.parse(res);
+                layer.close(loadii);
+                if (res.status == 1) {
+                    layer.alert(res.result.message, {icon: 6,closeBtn: 0},function () {
+                        // 获得frame索引
+                        var index = parent.layer.getFrameIndex(window.name);
+                        //关闭当前frame
+                        parent.layer.close(index);
+                        parent.location.href=parent.location.href;
+                    });
+                } else {
+                    layer.msg(res.result.message);
+                }
+            });
+            return false;
+        });
+    });
+
+</script>

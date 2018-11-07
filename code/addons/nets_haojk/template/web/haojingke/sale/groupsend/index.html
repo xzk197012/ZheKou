@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<link href="./resource/css/bootstrap.min.css?v=20180110" rel="stylesheet">
+{template 'haojingke/common/header'}
+<body>
+<div class="x-body">
+    <div class="layui-row">
+        <form action="" method="get"  enctype="multipart/form-data" class="layui-form layui-form-pane layui-col-md12 ">
+            <input type="hidden" name="m" value="nets_haojk">
+            <input type="hidden" name="do" value="web">
+            <input type="hidden" name="r" value="sale.groupsend">
+            <input type="hidden" name="a" value="entry">
+            <input type="hidden" name="c" value="site">
+            <div class="layui-form-item">
+                <div class="layui-inline">
+                    <label class="layui-form-label">状态</label>
+                    <div class="layui-input-inline">
+                        <select   name="state" id="state">
+                            <option value ="" {if $_GPC['state']==''}selected="selected"{/if}>全部</option>
+                            <option value ="0" {if $_GPC['state']=='0'}selected="selected"{/if}>待发送</option>
+                            <option value ="1" {if $_GPC['state']=='1'}selected="selected"{/if}>已发送</option>
+                            <option value ="-1" {if $_GPC['state']=='-1'}selected="selected"{/if}>发送失败</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="layui-inline">
+                    <label class="layui-form-label">关键字</label>
+                    <div class="layui-input-inline">
+                        <input type="text" value="{$_GPC['keyword']}"  name="keyword"  placeholder="商品名称、标题、openid" autocomplete="off" class="layui-input">
+                    </div>
+                    <button class="layui-btn"  lay-submit="" lay-filter="sreach"><i class="layui-icon">&#xe615;</i></button>
+                </div>
+        </div>
+        </form>
+    </div>
+    <xblock>
+        
+        <button class="layui-btn layui-btn-danger" type="button" onclick="deletewaitingsend(-2)">删除待发送</button>
+        <button class="layui-btn layui-btn-danger" type="button" onclick="deletewaitingsend(-1)">删除失败</button>
+        <button class="layui-btn layui-btn-danger" type="button" onclick="deletewaitingsend(-3)">删除全部</button>
+    </xblock>
+    <xblock>
+        <span>普通消息</span><span style="padding-left:15px;">待发送数 : <b id="waitingcount">{$message['waitingcount']}</b>条</span>&emsp;&emsp;<span>已发送数 :<b id="successcount">{$message['successcount']}</b>条 </span>&emsp;&emsp;<span>失败数(拒收消息) : <b id="errorcount">{$message['errorcount']}</b>条</span>
+        <button class="layui-btn layui-btn-normal" type="button" onclick="starmessagesend_time(this)">开始发送</button>
+    </xblock>
+    <!--<xblock>
+        <span><span>商品消息</span><span style="padding-left: 15px;">待发送数 : <b id="gwaitingcount">{$goodsmsg['waitingcount']}</b>条</span>&emsp;&emsp;<span>已发送数 :<b id="gsuccesscount">{$goodsmsg['successcount']}</b>条 </span>&emsp;&emsp;<span>失败数(拒收消息) : <b id="gerrorcount">{$goodsmsg['errorcount']}</b>条</span>
+		</span>
+        <button class="layui-btn layui-btn-normal" type="button" onclick="stargoodsmessagesend_time(this)">开始发送</button>
+    </xblock>-->
+    <table class="layui-table">
+        <thead>
+        <tr>
+            <th>序号</th>
+            <th class="w400">消息标题</th>
+            <th>OPENID</th>
+            <th>状态</th>
+            <th >发送时间</th>
+            <th >操作</th>
+        </tr>
+        </thead>
+        <tbody>
+        {loop $list $r}
+        <tr>
+        <tr>
+            <td>{$r['id']}</td>
+            <td>{$r['title']}</td>
+            <td>{$r['openid']}</td>
+            <td>
+                {if $r['state'] == 0}
+                待发送
+                {elseif $r['state'] ==1}
+                发送成功
+                {elseif $r['state'] == -1}
+                发送失败
+                {/if}
+            </td>
+            <td title='<?php echo date("Y-m-d H:i:s",$r['createtime'])?>'>
+                <?php echo date("Y-m-d H:i:s",$r['createtime'])?>
+            </td>
+            <td class="td-manage">
+                <a onclick="groupsend_delete('{$r['id']}')" href="javascript:;" class="layui-btn   layui-btn-mini  layui-btn-danger" ><i class="iconfont">&#xe69d;</i> 删除</a>
+            </td>
+        </tr>
+        {/loop}
+        </tbody>
+    </table>
+
+    {$pager}
+
+</div>
+</body>
+</html>
+
+<script>
+    var messageurl="<?php echo webUrl('sale/groupsend/groupsend_msg_send')?>";
+    var goodsmessageurl="<?php echo webUrl('sale/groupsend/groupsend_goods_send')?>";
+    var message_time1;
+    var message_time2;
+    function starmessagesend_time(obj){
+        if(parseInt($("#waitingcount").text())<=0){
+            layer.msg('没有待发的消息');
+            return;
+        }
+        if($(obj).text()=="开始发送"){
+            $(obj).text("停止发送");
+            message_time1=setInterval(starmessagesend,1000);
+        }else{
+            $(obj).text("开始发送");
+            window.clearInterval(message_time1)
+        }
+
+    }
+    function stargoodsmessagesend_time(obj){
+        if(parseInt($("#gwaitingcount").text())<=0){
+            layer.msg('没有待发的消息');
+            return;
+        }
+        if($(obj).text()=="开始发送"){
+            $(obj).text("停止发送");
+            message_time2=setInterval(stargoodsmessagesend,1000);
+        }else{
+            $(obj).text("开始发送");
+            window.clearInterval(message_time2)
+        }
+    }
+    function starmessagesend(){
+
+        $.ajax({url:messageurl,type:'post',success: function(res){
+            var obj=JSON.parse(res);
+            $("#waitingcount").text(obj.waitingcount);
+            $("#successcount").text(obj.successcount);
+            $("#errorcount").text(obj.errorcount);
+            console.log(obj.waitingcount);
+        }})
+    }
+    function stargoodsmessagesend(){
+
+        $.ajax({url:goodsmessageurl,type:'post',success: function(res){
+            var obj=JSON.parse(res);
+            $("#gwaitingcount").text(obj.waitingcount);
+            $("#gsuccesscount").text(obj.successcount);
+            $("#gerrorcount").text(obj.errorcount);
+            console.log(obj.waitingcount);
+        }})
+    }
+    /*删除*/
+    function groupsend_delete(id){
+        layer.confirm('删除后不可恢复,确认要删除么？',function(index){
+            var loadii = layer.load();
+            var ajaxurl="<?php echo webUrl('sale/groupsend/groupsend_delete').'&id='?>"+id;
+            $.post(ajaxurl,function(res){
+                var res=JSON.parse(res);
+                layer.close(loadii);
+                if(res.status==1){
+                    layer.alert(res.result.message, {icon: 6,closeBtn: 0},function () {
+                        location.href=location.href;
+                    });
+                }else{
+                    layer.msg("操作失败");
+                }
+            });
+        });
+    }
+    /*删除*/
+    function deletewaitingsend(state){
+        layer.confirm('删除后不可恢复,确认要删除么？',function(index){
+            var loadii = layer.load();
+            var ajaxurl="<?php echo webUrl('sale/groupsend/groupsend_delete').'&id='?>"+state;
+            $.post(ajaxurl,function(res){
+                var res=JSON.parse(res);
+                layer.close(loadii);
+                if(res.status==1){
+                    layer.alert(res.result.message, {icon: 6,closeBtn: 0},function () {
+                        location.href=location.href;
+                    });
+                }else{
+                    layer.msg("操作失败");
+                }
+            });
+        });
+    }
+    layui.use('laydate', function(){
+        var laydate = layui.laydate;
+
+        //执行一个laydate实例
+        laydate.render({
+            elem: '#daterange' //指定元素
+            ,range: '~'
+            , max:0
+        });
+    });
+
+</script>

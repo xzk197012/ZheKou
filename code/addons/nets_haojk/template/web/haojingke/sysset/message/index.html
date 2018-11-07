@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+{template 'haojingke/common/header'}
+    <body>
+        <div class="x-body">
+            <form action="" method="post"  enctype="multipart/form-data" class="layui-form">
+                <div class="layui-form-item">
+                    <label class="layui-form-label">
+                        <span class="x-red">*</span>公众号任务处理通知
+                    </label>
+                    <div class="layui-input-block">
+                        <input type="text" name="notice_tplno" lay-verify="notice_tplno"
+                               autocomplete="off" class="layui-input" value="{$r['notice_tplno']}">
+                    </div>
+                    <div class="layui-form-mid layui-word-aux">
+                        <span class="x-red">*</span>公众平台模板消息编号: OPENTM410037016,搜索“任务完成通知”
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">
+                        <span class="x-red">*</span>通知管理员(公众号)
+                    </label>
+                    <div class="layui-input-block">
+                        <input type="text" name="owner_openid" lay-verify="owner_openid"
+                               autocomplete="off" class="layui-input" value="{$r['owner_openid']}">
+                    </div>
+                    <div class="layui-form-mid layui-word-aux">
+                        <span class="x-red">*</span>公众号会员openid
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">
+                        <span class="x-red">*</span>通知管理员(小程序)
+                    </label>
+                    <div class="layui-input-block">
+                        <input type="text" name="owner_openid_app" lay-verify="owner_openid_app"
+                               autocomplete="off" class="layui-input" value="{$r['owner_openid_app']}">
+                    </div>
+                    <div class="layui-form-mid layui-word-aux">
+                        <span class="x-red">*</span>小程序会员openid
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">
+                        <span class="x-red">*</span>新增下级通知
+                    </label>
+                    <div class="layui-input-block">
+                        <input type="text" name="notice_newlevel" lay-verify="notice_newlevel"
+                               autocomplete="off" class="layui-input" value="{$r['notice_newlevel']}">
+                    </div>
+                    <label class="layui-form-label">
+                    </label>
+                    <div class="layui-form-mid layui-word-aux">
+                        <span class="x-red">*</span>标题，默认"新增下线通知"
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">
+                        <span class="x-red">*</span>申请提现通知
+                    </label>
+                    <div class="layui-input-block">
+                        <input type="text" name="notice_applycash" lay-verify="notice_applycash"
+                               autocomplete="off" class="layui-input" value="{$r['notice_applycash']}">
+                    </div>
+                    <div class="layui-form-mid layui-word-aux">
+                        <span class="x-red">*</span>标题，默认"提现申请提现通知"
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">
+                        <span class="x-red">*</span>提现申请审核通知
+                    </label>
+                    <div class="layui-input-block">
+                        <input type="text" name="notice_auditingcash" lay-verify="notice_auditingcash"
+                               autocomplete="off" class="layui-input" value="{$r['notice_auditingcash']}">
+                    </div>
+                    <div class="layui-form-mid layui-word-aux">
+                        <span class="x-red">*</span>标题，默认"提现申请审核通知"
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">
+                        <span class="x-red">*</span>公众号关注消息
+                    </label>
+                    <div class="layui-input-block">
+                        <textarea placeholder="请输入公众号关注消息" class="layui-textarea" name="fllow_msg">{$r['fllow_msg']}</textarea>
+                    </div>
+                    <label class="layui-form-label">
+                    </label>
+                    <div class="layui-form-mid layui-word-aux">
+                        <span class="x-red">*</span>公众号关注消息通知,可用变量&nbsp;[昵称]&nbsp;[公众号]&nbsp;[邀请人]
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">
+                    </label>
+                    <div class="layui-input-block">
+                        <input type="hidden" name="token" value="{$_W['token']}" />
+                        <button  type="submit" class="layui-btn" lay-filter="add" lay-submit="">
+                            提交
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

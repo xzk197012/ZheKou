@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<link href="./resource/css/bootstrap.min.css?v=20180110" rel="stylesheet">
+{template 'haojingke/common/header'}
+<body>
+<div class="x-body">
+    <div class="layui-row">
+        <form action="" method="get"  enctype="multipart/form-data" class="layui-form layui-form-pane layui-col-md12">
+            <input type="hidden" name="m" value="nets_haojk">
+            <input type="hidden" name="do" value="web">
+            <input type="hidden" name="r" value="pinduoduo.userorder">
+            <input type="hidden" name="a" value="entry">
+            <input type="hidden" name="c" value="site">
+
+            <div class="layui-form-item">
+                <div class="layui-inline">
+                    <label class="layui-form-label">日期范围</label>
+                    <div class="layui-input-inline">
+                        <input class="layui-input" placeholder="日期范围" name="daterange" id="daterange" value="{$_GPC['daterange']}">
+                    </div>
+                </div>
+                <div class="layui-inline">
+                    <label class="layui-form-label" style="width:80px;">订单状态</label>
+                    <div class="layui-input-inline" style="width:100px;">
+                        <select  name="yn" id="yn">
+                            {loop $pdd_orderstate $item}
+                            <option value ="{$item['value']}" {if $_GPC['yn']==$item['value']}selected="selected"{/if}>{$item['name']}</option>
+                            {/loop}
+                            
+
+                        </select>
+                    </div>
+                </div>
+                <div class="layui-inline">
+                    <label class="layui-form-label">关键字</label>
+                    <div class="layui-input-inline">
+                        <input type="text" value="{$_GPC['keyword']}"  name="keyword"  placeholder="昵称、推广位ID" autocomplete="off" class="layui-input">
+                    </div>
+                    <button class="layui-btn"  lay-submit="" lay-filter="sreach"><i class="layui-icon">&#xe615;</i></button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <!--<xblock>-->
+    <!--<button class="layui-btn layui-btn-danger" onclick="delAll()"><i class="layui-icon"></i>批量禁用</button>-->
+    <!--<button class="layui-btn" onclick="hjk_dialog_show('添加','{php echo webUrl('sysset/gradefy/add');}')"><i class="layui-icon"></i>添加</button>-->
+    <!--<span class="x-right" style="line-height:40px">共有数据 {$allcount} 条</span>-->
+    <!--</xblock>-->
+    <table class="layui-table">
+        <thead>
+        <tr >
+            <th>订单/商品</th>
+            <th>计佣金额</th>
+            <th>订单佣金</th>
+            <th>推广位</th>
+            <th>一级佣金</th>
+            <th>二级佣金</th>
+            <th>三级佣金</th>
+            <th>下单/完成时间</th>
+            <th class="text-center" style="">提单用户</th>
+        </tr>
+        </thead>
+        <tbody>
+        {loop $list $r}
+        <tr style='background-color:#f5f1f1;'>
+            <td class="text-center" style="padding: 0px;font-size: 11px;">
+                {$r['orderId']} 【{if $r['yn'] == 1}已成团{elseif $r['yn'] == -1}未支付{elseif $r['yn'] == 0}已支付{elseif $r['yn'] == 2}确认收货{elseif $r['yn'] == 0}已支付{elseif $r['yn'] ==3}审核成功{elseif $r['yn'] == 4}审核失败{/if}】
+                
+                {if $r['iscountsubsidy']=="false" && ($r['yn']==1 || $r['yn']==0 || $r['yn']==2 || $r['yn']==3)}
+                <button href="javascript:;" class="layui-btn" onclick="countordercommission(this)" style="padding: 2px;line-height: 30px;height: 30px;"
+                memberid="{$r['members']['memberid']}" membercommission="{$r['my_commission1']}" commission="{$r['commission']}"
+                memberid1="{$r['members2']['memberid']}" membercommission1="{$r['my_commission2']}" positionId="{$r['positionId']}" 
+                memberid2="{$r['members3']['memberid']}" membercommission2="{$r['my_commission3']}" orderId="{$r['orderId']}"
+                    <cite>提前结算</cite>
+                </button>
+                {else if $r['iscountsubsidy']=="true"  && ($r['yn']==1 || $r['yn']==0 || $r['yn']==2 || $r['yn']==3)}
+                <a style="color:#16dc19;">
+                       
+                       <cite>已结算</cite>
+                   </a>
+                {/if}
+            </td>
+            <td class="text-center">
+                ￥{$r['cosPrice']}
+            </td>
+            <td class="text-center">
+                ￥{$r['commission']}
+            </td>
+            <td class="text-center">
+                {$r['positionId']}
+            </td>
+
+            <td class="text-center">
+                <?php echo getUserNameByPid($r['positionId'],$r['orderId'])?>
+            </td>
+            <td class="text-center">
+                {if !empty($r['members2'])}
+                <?php echo $r['members2']['memberid']?>/
+                <?php echo $r['members2']['nickname']?>
+                {else}
+                无
+                {/if}
+            </td>
+            <td class="text-center" style='text-align:left;'>
+
+                {if !empty($r['members3'])}
+                <?php echo $r['members3']['memberid']?>/
+                <?php echo $r['members3']['nickname']?>
+                {else}
+                无
+                {/if}
+            </td>
+            <td class="text-center">
+                <?php echo date("Y-m-d H:i:s",$r['orderTime'])?>
+            </td>
+            <td class="text-center">
+                <?php echo getUserNameByOrderno($r['orderId'])?>
+            </td>
+        </tr>
+        <tr>
+            <td class="text-center" colSpan='3'>
+                <div style='width:400px;height:auto;overflow:hidden;text-align:left;'>
+                    <?php foreach($r['skus'] AS $sku){?>
+                    {$sku['skuName']}<br/>
+                    <?php }
+                                ?>
+                </div>
+            </td>
+            <td class="text-center">
+
+                <?php
+                                    echo  '  x'.count($r['skus']).'件';
+                                    ?>
+            </td>
+            <td class="text-center">
+                ￥{$r['my_commission1']}
+            </td>
+            <td class="text-center">
+                {if !empty($r['members2'])}
+                ￥{$r['my_commission2']}
+                {else}
+                无
+                {/if}
+            </td>
+            <td class="text-center" style='text-align:left;'>
+
+                {if !empty($r['members3'])}
+                ￥{$r['my_commission3']}
+                {else}
+                无
+                {/if}
+            </td>
+            <td class="text-center">
+                {if !empty($r["finishTime"])}
+                <?php echo date("Y-m-d H:i:s",$r['finishTime'])?>
+                {/if}
+            </td>
+            <td class="text-center">
+                <!--<?php echo getUserNameByOrderno($r['orderId'])?>-->
+            </td>
+        </tr>
+        {/loop}
+        </tbody>
+    </table>
+
+    {$pager}
+
+</div>
+</body>
+</html>
+
+<script>
+
+    layui.use('laydate', function(){
+        var laydate = layui.laydate;
+
+        //执行一个laydate实例
+        laydate.render({
+            elem: '#daterange' //指定元素
+            ,range: '~'
+            , max:0
+        });
+    });
+    function countordercommission(obj){
+        var loadii = layer.load();
+        var o=$(obj);
+        var ajaxurl="<?php echo webUrl('order/countordercommission')?>";
+        var data= {"commission":o.attr("commission"),"orderId":o.attr("orderId"),"positionId":o.attr("positionId"), "memberid": o.attr("memberid"),"membercommission":o.attr("membercommission"),"memberid1":o.attr("memberid1"),"membercommission1":o.attr("membercommission1"),"memberid2":o.attr("memberid2"),"membercommission2":o.attr("membercommission2")};
+        $.post(ajaxurl,data,function(res){
+            var res=JSON.parse(res);
+            layer.close(loadii);
+            if(res.status==1){
+                layer.alert(res.result.message, {icon: 6,closeBtn: 0},function () {
+                    location.href=location.href;
+                });
+            }else{
+                layer.msg("操作失败");
+            }
+        });
+    }
+</script>

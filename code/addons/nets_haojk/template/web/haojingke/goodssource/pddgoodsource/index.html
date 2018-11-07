@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<link href="./resource/css/bootstrap.min.css?v=20180110" rel="stylesheet">
+{template 'haojingke/common/header'}
+<body>
+<div class="x-body">
+    <div class="layui-row">
+        <form action="" method="get"  enctype="multipart/form-data" class="layui-form layui-form-pane layui-col-md12 ">
+            <input type="hidden" name="m" value="nets_haojk">
+            <input type="hidden" name="do" value="web">
+            <input type="hidden" name="r" value="goodssource.pddgoodsource.index">
+            <input type="hidden" name="a" value="entry">
+            <input type="hidden" name="c" value="site">
+            <div class="layui-form-item">
+                <div class="layui-inline">
+                    <label class="layui-form-label">菜单类型</label>
+                    <div class="layui-input-inline">
+                        <select  id="type" name="type">
+                            <option value=""{if $_GPC['type']==""}selected="true"{/if}>全部</option>
+                            <option value="1" {if $_GPC['type']==1}selected="true"{/if}>自定义商品源</option>
+                            <option value="3" {if $_GPC['type']==3}selected="true"{/if}>自选商品源</option>
+                            <option value="2" {if $_GPC['type']==2}selected="true"{/if}>分类商品源</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="layui-inline">
+                    <label class="layui-form-label">商品源名称</label>
+                    <div class="layui-input-inline">
+                        <input type="text" value="{$_GPC['name']}"  name="name"  placeholder="商品源" autocomplete="off" class="layui-input">
+                    </div>
+                    <button class="layui-btn"  lay-submit="" lay-filter="sreach"><i class="layui-icon">&#xe615;</i></button>
+
+                </div>
+        </div>
+        </form>
+    </div>
+    <xblock>
+        <button class="layui-btn" onclick="hjk_dialog_show('添加拼多多商品源','{php echo webUrl('goodssource/pddgoodsource/goodssource_add');}')"><i class="layui-icon"></i>添加商品源</button>
+        <span class="x-right" style="line-height:40px">共有数据 {$total} 条</span>
+    </xblock>
+    <table class="layui-table">
+        <thead>
+        <tr>
+            <th>商品源名称</th>
+            <th class="w400">链接</th>
+            <th>类型</th>
+            <th>时间</th>
+            <th >操作</th>
+        </tr>
+        </thead>
+        <tbody>
+        {loop $list $r}
+        <tr>
+            <td >
+                {$r['name']}
+            </td>
+            <td>
+                {if $r['type'] == 1}{elseif $r['type'] == 2}{elseif $r['type'] == 3}
+                <?php $tempurl=$_W['siteroot'].$this->createMobileUrl("tuiguang",array('cateid'=>$r['id']));
+                 echo str_replace('m=','m=nets_haojk',str_replace('/./','/app/',$tempurl));?>
+                {/if}
+            </td>
+            <td>
+                {if $r['type'] == 1}自定义商品源{elseif $r['type'] == 2}分类商品源{elseif $r['type'] == 3}自选商品源{/if}
+            </td>
+            <td>
+                <?php echo date("Y-m-d H:i:s",$r['created_at'])?>
+            </td>
+            <td class="td-manage">
+                {if $r['type']==1 || $r['type']==3}
+                <a  onclick="hjk_dialog_show('编辑商品源','{php echo webUrl('goodssource/pddgoodsource/goodssource_add').'&id='.$r['id'];}')" href="javascript:void(0)" class="layui-btn   layui-btn-mini  layui-btn-normal" title=""><i class="layui-icon">&#xe63c;</i> 编辑</a>
+                <a class="layui-btn   layui-btn-mini  layui-btn-danger" href="javascript:void(0)" onclick="goodssource_delete(this,{$r['id']})"><i class="iconfont">&#xe69d;</i> 删除</a>
+                {/if}
+                {if $r['type']==3}
+                <a href="{php echo webUrl('goodssource/pddgoodsource/sourcegoods').'&cname='.$r['id']}" class="layui-btn   layui-btn-mini  layui-btn-normal" >商品管理</a>
+
+                {/if}
+            </td>
+        </tr>
+        {/loop}
+        </tbody>
+    </table>
+
+    {$pager}
+
+</div>
+</body>
+</html>
+
+<script>
+    /*删除*/
+    function goodssource_delete(obj,id){
+        var loadii = layer.load();
+        var ajaxurl="<?php echo webUrl('goodssource/pddgoodsource/goodssource_delete')?>";
+        var data= { "id": id};
+        $.post(ajaxurl,data,function(res){
+            var res=JSON.parse(res);
+            layer.close(loadii);
+            if(res.status==1){
+                layer.alert(res.result.message, {icon: 6,closeBtn: 0},function () {
+                    location.href=location.href;
+                });
+            }else{
+                layer.msg("操作失败");
+            }
+        });
+    }
+
+    layui.use('laydate', function(){
+        var laydate = layui.laydate;
+
+        //执行一个laydate实例
+        laydate.render({
+            elem: '#daterange' //指定元素
+            ,range: '~'
+            , max:0
+        });
+    });
+
+</script>

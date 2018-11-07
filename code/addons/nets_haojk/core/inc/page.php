@@ -1,0 +1,199 @@
+<?php
+if (!(defined('IN_IA'))) 
+{
+	exit('Access Denied');
+}
+class Page extends WeModuleSite 
+{
+
+	public function template($filename = '', $type = TEMPLATE_INCLUDEPATH, $account = false) 
+	{
+		global $_W;
+		global $_GPC;
+		if (empty($filename)) 
+		{
+			$filename = str_replace('.', '/', $_W['routes']);
+		}
+		if ($_GPC['do'] == 'web') 
+		{
+			$filename = str_replace('/add', '/post', $filename);
+			$filename = str_replace('/edit', '/post', $filename);
+			$filename = 'web/' . $filename;
+		}
+		else if ($_GPC['do'] == 'mobile') 
+		{
+		}
+		$name = 'nets_haojk';
+		$moduleroot = IA_ROOT . '/addons/nets_haojk';
+		if (defined('IN_SYS')) 
+		{
+			$compile = IA_ROOT . '/data/tpl/web/' . $_W['template'] . '/' . $name . '/' . $filename . '.tpl.php';
+			$source = $moduleroot . '/template/' . $filename . '.html';
+			if (!(is_file($source))) 
+			{
+				$source = $moduleroot . '/template/' . $filename . '/index.html';
+			}
+			if (!(is_file($source))) 
+			{
+				$explode = array_slice(explode('/', $filename), 1);
+				$temp = array_slice($explode, 1);
+				$source = $moduleroot . '/plugin/' . $explode[0] . '/template/web/' . implode('/', $temp) . '.html';
+				if (!(is_file($source))) 
+				{
+					$source = $moduleroot . '/plugin/' . $explode[0] . '/template/web/' . implode('/', $temp) . '/index.html';
+				}
+			}
+		}
+		else 
+		{
+			if ($account) 
+			{
+				$template = $_W['shopset']['wap']['style'];
+				if (empty($template)) 
+				{
+					$template = 'default';
+				}
+				if (!(is_dir($moduleroot . '/template/account/' . $template))) 
+				{
+					$template = 'default';
+				}
+				$compile = IA_ROOT . '/data/tpl/app/' . $name . '/' . $template . '/account/' . $filename . '.tpl.php';
+				$source = IA_ROOT . '/addons/' . $name . '/template/account/' . $template . '/' . $filename . '.html';
+				if (!(is_file($source))) 
+				{
+					$source = IA_ROOT . '/addons/' . $name . '/template/account/default/' . $filename . '.html';
+				}
+				if (!(is_file($source))) 
+				{
+					$source = IA_ROOT . '/addons/' . $name . '/template/account/default/' . $filename . '/index.html';
+				}
+			}
+			else 
+			{
+				$template = m('cache')->getString('template_shop');
+				if (empty($template)) 
+				{
+					$template = 'default';
+				}
+				if (!(is_dir($moduleroot . '/template/mobile/' . $template))) 
+				{
+					$template = 'default';
+				}
+				$compile = IA_ROOT . '/data/tpl/app/' . $name . '/' . $template . '/mobile/' . $filename . '.tpl.php';
+				$source = IA_ROOT . '/addons/' . $name . '/template/mobile/' . $template . '/' . $filename . '.html';
+				if (!(is_file($source))) 
+				{
+					$source = IA_ROOT . '/addons/' . $name . '/template/mobile/' . $template . '/' . $filename . '/index.html';
+				}
+				if (!(is_file($source))) 
+				{
+					$source = IA_ROOT . '/addons/' . $name . '/template/mobile/default/' . $filename . '.html';
+				}
+				if (!(is_file($source))) 
+				{
+					$source = IA_ROOT . '/addons/' . $name . '/template/mobile/default/' . $filename . '/index.html';
+				}
+			}
+			if (!(is_file($source))) 
+			{
+				$names = explode('/', $filename);
+				$pluginname = $names[0];
+				$ptemplate = m('cache')->getString('template_' . $pluginname);
+				if (empty($ptemplate) || ($pluginname == 'creditshop')) 
+				{
+					$ptemplate = 'default';
+				}
+				if (!(is_dir($moduleroot . '/plugin/' . $pluginname . '/template/mobile/' . $ptemplate))) 
+				{
+					$ptemplate = 'default';
+				}
+				unset($names[0]);
+				$pfilename = implode('/', $names);
+				$compile = IA_ROOT . '/data/tpl/app/' . $name . '/plugin/' . $pluginname . '/' . $ptemplate . '/mobile/' . $filename . '.tpl.php';
+				$source = $moduleroot . '/plugin/' . $pluginname . '/template/mobile/' . $ptemplate . '/' . $pfilename . '.html';
+				if (!(is_file($source))) 
+				{
+					$source = $moduleroot . '/plugin/' . $pluginname . '/template/mobile/' . $ptemplate . '/' . $pfilename . '/index.html';
+				}
+			}
+		}
+		if (!(is_file($source))) 
+		{
+			exit('Error: template source \'' . $filename . '\' is not exist!');
+		}
+		if (DEVELOPMENT || !(is_file($compile)) || (filemtime($compile) < filemtime($source))) 
+		{
+			shop_template_compile($source, $compile, true);
+		}
+		return $compile;
+	}
+	public function message($msg, $redirect = '', $type = '') 
+	{
+		global $_W;
+		$title = '';
+		$buttontext = '';
+		$message = $msg;
+		$buttondisplay = true;
+		if (is_array($msg)) 
+		{
+			$message = ((isset($msg['message']) ? $msg['message'] : ''));
+			$title = ((isset($msg['title']) ? $msg['title'] : ''));
+			$buttontext = ((isset($msg['buttontext']) ? $msg['buttontext'] : ''));
+			$buttondisplay = ((isset($msg['buttondisplay']) ? $msg['buttondisplay'] : true));
+		}
+		if (empty($redirect)) 
+		{
+			$redirect = 'javascript:history.back(-1);';
+		}
+		else if ($redirect == 'close') 
+		{
+			$redirect = 'javascript:WeixinJSBridge.call("closeWindow")';
+		}
+		else if ($redirect == 'exit') 
+		{
+			$redirect = '';
+		}
+        $label = $type;
+		include $this->template('_message');
+		exit();
+	}
+	public function checkSubmit($key, $time = 2, $message = '操作频繁，请稍后再试!') 
+	{
+		global $_W;
+		$open_redis = function_exists('redis') && !(is_error(redis()));
+		if ($open_redis) 
+		{
+			$redis_key = $_W['setting']['site']['key'] . '_' . $_W['account']['key'] . '_' . $_W['uniacid'] . '_' . $_W['openid'] . '_mobilesubmit_' . $key;
+			$redis = redis();
+			if ($redis->setnx($redis_key, time())) 
+			{
+				$redis->expireAt($redis_key, time() + $time);
+			}
+			else 
+			{
+				return error(-1, $message);
+			}
+		}
+		return true;
+	}
+	public function checkSubmitGlobal($key, $time = 2, $message = '操作频繁，请稍后再试!') 
+	{
+		global $_W;
+		$open_redis = function_exists('redis') && !(is_error(redis()));
+		if ($open_redis) 
+		{
+			$redis_key = $_W['setting']['site']['key'] . '_' . $_W['account']['key'] . '_' . $_W['uniacid'] . '_mobilesubmit_' . $key;
+			$redis = redis();
+			if ($redis->setnx($redis_key, time())) 
+			{
+				$redis->expireAt($redis_key, time() + $time);
+			}
+			else 
+			{
+				return error(-1, $message);
+			}
+		}
+		return true;
+	}
+}
+?>

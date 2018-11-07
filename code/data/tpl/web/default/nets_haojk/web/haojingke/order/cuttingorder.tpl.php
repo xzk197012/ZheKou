@@ -1,0 +1,201 @@
+<?php defined('IN_IA') or exit('Access Denied');?><!DOCTYPE html>
+<html>
+<link href="./resource/css/bootstrap.min.css?v=20180110" rel="stylesheet">
+<?php (!empty($this) && $this instanceof WeModuleSite || 1) ? (include $this->template('haojingke/common/header', TEMPLATE_INCLUDEPATH)) : (include template('haojingke/common/header', TEMPLATE_INCLUDEPATH));?>
+<body>
+<div class="x-body">
+    <div class="layui-row">
+        <form action="" method="get"  enctype="multipart/form-data" class="layui-form layui-form-pane layui-col-md12">
+            <input type="hidden" name="m" value="nets_haojk">
+            <input type="hidden" name="do" value="web">
+            <input type="hidden" name="r" value="order.cuttingorder">
+            <input type="hidden" name="a" value="entry">
+            <input type="hidden" name="c" value="site">
+
+            <div class="layui-form-item">
+                <div class="layui-inline">
+                    <label class="layui-form-label">日期范围</label>
+                    <div class="layui-input-inline">
+                        <input class="layui-input" placeholder="日期范围" name="daterange" id="daterange" value="<?php  echo $_GPC['daterange'];?>">
+                    </div>
+                </div>
+                <div class="layui-inline">
+                    <label class="layui-form-label">订单状态</label>
+                    <div class="layui-input-inline">
+                        <select  name="yn" id="yn">
+                            <?php  if(is_array($jd_orderstate)) { foreach($jd_orderstate as $item) { ?>
+                            <option value ="<?php  echo $item['value'];?>" <?php  if($_GPC['yn']==$item['value']) { ?>selected="selected"<?php  } ?>><?php  echo $item['name'];?></option>
+                            <?php  } } ?>
+                        </select>
+                    </div>
+                </div>
+                <div class="layui-inline">
+                    <label class="layui-form-label">关键字</label>
+                    <div class="layui-input-inline">
+                        <input type="text" value="<?php  echo $_GPC['keyword'];?>"  name="keyword"  placeholder="昵称、推广位ID" autocomplete="off" class="layui-input">
+                    </div>
+                    <button class="layui-btn"  lay-submit="" lay-filter="sreach"><i class="layui-icon">&#xe615;</i></button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <!--<xblock>-->
+    <!--<button class="layui-btn layui-btn-danger" onclick="delAll()"><i class="layui-icon"></i>批量禁用</button>-->
+    <!--<button class="layui-btn" onclick="hjk_dialog_show('添加','<?php  echo webUrl('sysset/gradefy/add');?>')"><i class="layui-icon"></i>添加</button>-->
+    <!--<span class="x-right" style="line-height:40px">共有数据 <?php  echo $allcount;?> 条</span>-->
+    <!--</xblock>-->
+    <table class="layui-table">
+        <thead>
+        <tr >
+            <th>订单/商品</th>
+            <th>计佣金额</th>
+            <th>订单佣金</th>
+            <th>推广位</th>
+            <th>一级佣金</th>
+            <th>二级佣金</th>
+            <th>三级佣金</th>
+            <th>下单/完成时间</th>
+            <th class="text-center" style="">提单用户</th>
+        </tr>
+        </thead>
+        <tbody>
+        <?php  if(is_array($list)) { foreach($list as $r) { ?>
+        <tr style='background-color:#f5f1f1;'>
+            <td class="text-center">
+                <?php  $isshwojiesuan= getMemberLogForCutting($r['orderId']);?>
+
+                <?php  echo $r['orderId'];?> 【官方状态:<?php  echo $r['valistatus'];?>】
+                <?php  if(($r['validCode']==16 || $r['validCode']==17 || $r['validCode']==18) && !empty($r['finishTime'])) { ?>
+                <?php  if($isshwojiesuan=='true' ) { ?>
+                <button href="javascript:;" class="layui-btn" onclick="countordercommission(this)"  style="padding: 2px;line-height: 30px;height: 30px;"
+                cosPrice="<?php  echo $r['cosPrice'];?>"  orderId="<?php  echo $r['orderId'];?>">
+                    <i class="iconfont"></i>
+                    <cite>提前结算</cite>
+                </button>
+                 <?php  } else { ?>
+                 <a style="color:#16dc19;">
+                        <i class="iconfont"></i>
+                        <cite>已结算</cite>
+                </a>
+                 <?php  } ?>
+                 <?php  } ?>
+            </td>
+            <td class="text-center">
+                ￥<?php  echo $r['cosPrice'];?>
+            </td>
+            <td class="text-center">
+                ￥<?php  echo $r['commission'];?>
+            </td>
+            <td class="text-center">
+                <?php  echo $r['positionId'];?>
+            </td>
+
+            <td class="text-center">
+                <?php  echo getUserNameByPid($r['positionId'],$r['orderId'])?>
+            </td>
+            <td class="text-center">
+                <?php  if(!empty($r['members2'])) { ?>
+                <?php  echo $r['members2']['memberid']?>/
+                <?php  echo $r['members2']['nickname']?>
+                <?php  } else { ?>
+                无
+                <?php  } ?>
+            </td>
+            <td class="text-center" style='text-align:left;'>
+
+                <?php  if(!empty($r['members3'])) { ?>
+                <?php  echo $r['members3']['memberid']?>/
+                <?php  echo $r['members3']['nickname']?>
+                <?php  } else { ?>
+                无
+                <?php  } ?>
+            </td>
+            <td class="text-center">
+                <?php  echo date("Y-m-d H:i:s",$r['orderTime'])?>
+            </td>
+            <td class="text-center">
+                <?php  echo getUserNameByOrdernoForCutting($r['orderId'])?>
+            </td>
+        </tr>
+        <tr>
+            <td class="text-center" colSpan='3'>
+                <div style='width:400px;height:auto;overflow:hidden;text-align:left;'>
+                    <?php  foreach($r['skus'] AS $sku){?>
+                    <?php  echo $sku['skuName'];?><br/>
+                    <?php  }
+                                ?>
+                </div>
+            </td>
+            <td class="text-center">
+
+                <?php 
+                                    echo  '  x'.count($r['skus']).'件';
+                                    ?>
+            </td>
+            <td class="text-center">
+                ￥<?php  echo $r['my_commission1'];?>
+            </td>
+            <td class="text-center">
+                <?php  if(!empty($r['members2'])) { ?>
+                ￥<?php  echo $r['my_commission2'];?>
+                <?php  } else { ?>
+                无
+                <?php  } ?>
+            </td>
+            <td class="text-center" style='text-align:left;'>
+
+                <?php  if(!empty($r['members3'])) { ?>
+                ￥<?php  echo $r['my_commission3'];?>
+                <?php  } else { ?>
+                无
+                <?php  } ?>
+            </td>
+            <td class="text-center">
+                <?php  if(!empty($r["finishTime"])) { ?>
+                <?php  echo date("Y-m-d H:i:s",$r['finishTime'])?>
+                <?php  } ?>
+            </td>
+            <td class="text-center">
+                <!--<?php  echo getUserNameByOrderno($r['orderId'])?>-->
+            </td>
+        </tr>
+        <?php  } } ?>
+        </tbody>
+    </table>
+
+    <?php  echo $pager;?>
+
+</div>
+</body>
+</html>
+
+<script>
+
+    layui.use('laydate', function(){
+        var laydate = layui.laydate;
+
+        //执行一个laydate实例
+        laydate.render({
+            elem: '#daterange' //指定元素
+            ,range: '~'
+            , max:0
+        });
+    });
+    function countordercommission(obj){
+        var loadii = layer.load();
+        var o=$(obj);
+        var ajaxurl="<?php  echo webUrl('order/countordercommissionbycutting')?>";
+        var data= {"orderId":o.attr("orderId"), "cosPrice": o.attr("cosPrice")};
+        $.post(ajaxurl,data,function(res){
+            var res=JSON.parse(res);
+            layer.close(loadii);
+            if(res.status==1){
+                layer.alert(res.result.message, {icon: 6,closeBtn: 0},function () {
+                    location.href=location.href;
+                });
+            }else{
+                layer.msg("操作失败");
+            }
+        });
+    }
+</script>

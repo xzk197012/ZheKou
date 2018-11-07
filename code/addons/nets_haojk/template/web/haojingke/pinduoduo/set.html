@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+{template 'haojingke/common/header'}
+    <body>
+        <div class="x-body">
+
+            <form action="" method="post"  enctype="multipart/form-data" class="layui-form">
+                <div class="layui-form-item">
+                    <label for="L_jduniacid" class="layui-form-label">
+                        小程序AppID
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text"  name="hjkappid" 
+                               autocomplete="off" class="layui-input" value="{$r1['hjkappid']}">
+                    </div>
+                    <div class="layui-form-mid layui-word-aux">
+                        <span class="x-red">*</span>好京客小程序appid,请向服务商索取！</a>
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label for="L_jduniacid" class="layui-form-label">
+                        <span class="x-red">*</span>联盟手机号
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text" id="L_mobile" name="mobile" lay-verify="mobile"
+                               autocomplete="off" class="layui-input" value="{$data['mobile']}">
+                    </div>
+                    <div class="layui-form-mid layui-word-aux">
+                        <span class="x-red">*</span>好京客注册的手机号，没有？<a href="http://www.haojingke.com/auth/register" target="_blank">立即注册</a>
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                        <label for="L_jduniacid" class="layui-form-label">
+                            <span class="x-red">*</span>默认推广位
+                        </label>
+                        <div class="layui-input-inline">
+                            <input type="text" id="L_default_pid" name="default_pid" 
+                                   autocomplete="off" class="layui-input" value="{$data['default_pid']}">
+                        </div>
+                        <div class="layui-form-mid layui-word-aux">
+                            <span class="x-red">*请先保存正确的联盟手机号再点</span>
+                            <a href="{php echo webUrl('pinduoduo/set/buildset');}" class="layui-btn layui-btn-xs layui-btn-normal" style="padding: 2px;height: 28px;line-height: 28px;">点击生成</a>
+                        </div>
+                    </div>
+                <div class="layui-form-item">
+                    <label for="L_jdpid" class="layui-form-label">
+                        <span class="x-red">*</span>领劵方式
+                    </label>
+                   <div class="layui-input-inline">
+                        <select name="couptype" id="couptype">
+                        <option  {if $data['couptype']==''}selected="selected"{/if}></option>
+                            <option value ="0" {if $data['couptype']=='0'}selected="selected"{/if}>默认客服消息</option>
+                            <option value ="1" {if $data['couptype']=='1'}selected="selected"{/if}>直接跳转</option>
+                        </select>
+                    </div>
+                    <div class="layui-form-mid layui-word-aux">
+                        <span class="x-red">*</span>领劵方式,直接跳转领券页请先在公众号内关联好京客小程序。<br/>小程序appid请向服务商索取！
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <input type="hidden" name="op" value="post"/>
+                    <input type="hidden" name="token" value="{$_W['token']}" />
+                    <label for="L_jdpid" class="layui-form-label">
+                    </label>
+                    <button  type="submit" class="layui-btn" lay-filter="add" lay-submit="">
+                        提交
+                    </button>
+                </div>
+            </form>
+            <div class="layui-form-item">
+                <button class="layui-btn " onclick="position_switch()"> 一键切换推广位</button>
+                <span class="x-red">用户切换个人多多进宝授权或使用好京客高佣接口在好京客官方切换后必须操作此步以替换默认和所有代理推广位！
+                <br/>切换后总帐号佣金无影响，但代理未结算佣金将不会再分配，请提前结算后再切换！</span>
+            </div>
+        </div>
+    </body>
+</html>
+
+<script>
+    /*一键切换推广位*/
+    function position_switch(){
+        layer.confirm('代理未结算佣金将不会再分配，请提前结算后再切换,现在切换吗？',function(index){
+            var loadii = layer.load();
+            var ajaxurl="<?php echo webUrl('pinduoduo/set/position_switch')?>";
+            $.post(ajaxurl,function(res){
+                var res=JSON.parse(res);
+                layer.close(loadii);
+                if(res.status==1){
+                    layer.alert(res.result.message, {icon: 6,closeBtn: 0},function () {
+                        location.href=location.href;
+                    });
+                }else{
+                    layer.msg("操作失败");
+                }
+            });
+        });
+    }
+</script>

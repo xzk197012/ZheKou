@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+{template 'haojingke/common/header'}
+    <body>
+        <div class="x-body">
+
+            <form action="" method="post"  enctype="multipart/form-data" class="layui-form">
+
+                <div class="layui-form-item">
+                    <label for="L_jdpid" class="layui-form-label">
+                        <span class="x-red">*</span>API key
+                    </label>
+                    <div class="layui-input-inline">
+                        <input type="text" id="L_jduniackey" name="jduniackey" lay-verify="jduniackey"
+                               autocomplete="off" class="layui-input" value="{$data['jduniackey']}">
+                    </div>
+                    <div class="layui-form-mid layui-word-aux">
+                        <span class="x-red">*</span>好京客API key
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <input type="hidden" name="op" value="post"/>
+                    <input type="hidden" name="token" value="{$_W['token']}" />
+                    <label for="L_jdpid" class="layui-form-label">
+                    </label>
+                    <button  type="submit" class="layui-btn" lay-filter="add" lay-submit="">
+                        提交
+                    </button>
+                </div>
+               
+            </form>
+            
+        </div>
+    </body>
+</html>
+
+<script>
+    layui.use(['form','layer'], function(){
+        $ = layui.jquery;
+        var form = layui.form
+            ,layer = layui.layer;
+
+        //自定义验证规则
+        form.verify({
+            jduniackey:function(value){
+                if(value.length <=0){
+                    return '好京客API key！';
+                }
+            }
+        });
+        
+    });
+  
+</script>

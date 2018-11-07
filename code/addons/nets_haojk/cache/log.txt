@@ -1,0 +1,3208 @@
+﻿
+2018-09-18 19:59:05	消息订阅：subscribe
+
+2018-09-18 20:00:08	授权信息："{\"message\":\"success\",\"data\":\"{\\\"message\\\":\\\"\\\\u6ca1\\\\u6709\\\\u6743\\\\u9650\\\\uff01\\\",\\\"data\\\":\\\"\\\",\\\"status_code\\\":-200}\",\"status_code\":200}"
+
+2018-09-18 20:00:09	授权信息："{\"message\":\"success\",\"data\":\"{\\\"message\\\":\\\"\\\\u6ca1\\\\u6709\\\\u6743\\\\u9650\\\\uff01\\\",\\\"data\\\":\\\"\\\",\\\"status_code\\\":-200}\",\"status_code\":200}"
+
+2018-09-18 20:00:11	授权信息："{\"message\":\"success\",\"data\":\"{\\\"message\\\":\\\"\\\\u6ca1\\\\u6709\\\\u6743\\\\u9650\\\\uff01\\\",\\\"data\\\":\\\"\\\",\\\"status_code\\\":-200}\",\"status_code\":200}"
+
+2018-09-18 22:21:59	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:22:00	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:22:01	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:22:04	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:22:48	b9bd44c0ba62af0ac9bf29c17ab04e11e421c971_1537280567_1583118358_S3xLf5nFntbFXxV8r3iFNfRx3Xlnff8n
+
+2018-09-18 22:22:48	tmpStr:b9bd44c0ba62af0ac9bf29c17ab04e11e421c971
+
+2018-09-18 22:22:48	signature:b9bd44c0ba62af0ac9bf29c17ab04e11e421c971
+
+2018-09-18 22:22:48	check:true
+
+2018-09-18 22:22:48	0.1首次api验证对接！
+
+2018-09-18 22:23:30	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:23:30	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:23:39	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:24:49	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:24:49	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:25:02	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:25:07	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:25:07	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:28:32	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:28:32	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:28:42	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:28:45	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:28:47	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:28:52	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:29:55	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:29:55	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:29:58	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:30:00	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:30:03	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:30:03	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:30:06	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:30:08	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:30:11	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:30:11	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:30:14	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:30:16	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:30:19	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:30:20	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:30:23	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:30:25	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:30:30	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:30:30	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:30:34	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:30:36	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:30:42	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:30:43	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:30:48	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:30:50	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:30:54	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:30:55	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:30:58	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:31:00	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:31:05	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:31:05	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:31:09	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:31:11	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:31:16	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:31:17	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:31:22	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:31:26	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:31:33	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:31:33	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:31:36	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:31:37	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:31:43	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:31:51	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:32:08	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:32:14	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:32:14	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:32:16	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:32:18	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:32:20	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:32:21	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:32:44	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:32:55	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-18 22:38:52	获取商品详情链接BEGIN:2018-09-18 22:38:52
+
+2018-09-18 22:38:52	转连的京盟：uid:1;1000084020_1476122321
+
+2018-09-18 22:38:52	获取商品详情链接END:2018-09-18 22:38:52
+
+2018-09-18 22:38:52	获取商品详情链接BEGIN:2018-09-18 22:38:52
+
+2018-09-18 22:38:52	转连的京盟：uid:1;1000084020_1476122321
+
+2018-09-18 22:38:53	获取商品详情链接END:2018-09-18 22:38:53
+
+2018-09-18 22:39:34	获取商品详情链接BEGIN:2018-09-18 22:39:34
+
+2018-09-18 22:39:34	转连的京盟：uid:1;1000084020_1476122321
+
+2018-09-18 22:39:34	获取商品详情链接END:2018-09-18 22:39:34
+
+2018-09-18 22:40:34	转连的京盟：uid:1;1000084020_1476122321
+
+2018-09-18 22:40:34	获取商品详情链接BEGIN:2018-09-18 22:40:34
+
+2018-09-18 22:40:34	获取商品详情链接END:2018-09-18 22:40:34
+
+2018-09-18 22:40:35	获取商品详情链接BEGIN:2018-09-18 22:40:35
+
+2018-09-18 22:40:35	转连的京盟：uid:1;1000084020_1476122321
+
+2018-09-18 22:40:35	获取商品详情链接END:2018-09-18 22:40:35
+
+2018-09-18 22:41:35	获取商品详情链接BEGIN:2018-09-18 22:41:35
+
+2018-09-18 22:41:35	转连的京盟：uid:1;1000084020_1476122321
+
+2018-09-18 22:41:35	获取商品详情链接END:2018-09-18 22:41:35
+
+2018-09-18 22:41:36	获取商品详情链接BEGIN:2018-09-18 22:41:36
+
+2018-09-18 22:41:36	转连的京盟：uid:1;1000084020_1476122321
+
+2018-09-18 22:41:36	获取商品详情链接END:2018-09-18 22:41:36
+
+2018-09-19 15:18:17	获取商品详情链接BEGIN:2018-09-19 15:18:17
+
+2018-09-19 15:18:17	转连的京盟：uid:3;1000084020_1476122321
+
+2018-09-19 15:18:17	获取商品详情链接END:2018-09-19 15:18:17
+
+2018-09-19 15:18:21	转连的京盟：uid:3;1000084020_1476122321
+
+2018-09-19 15:18:21	获取商品详情链接BEGIN:2018-09-19 15:18:21
+
+2018-09-19 15:18:21	获取商品详情链接END:2018-09-19 15:18:21
+
+2018-09-19 15:18:38	获取商品详情链接BEGIN:2018-09-19 15:18:38
+
+2018-09-19 15:18:38	转连的京盟：uid:3;1000084020_1476122321
+
+2018-09-19 15:18:38	获取商品详情链接END:2018-09-19 15:18:38
+
+2018-09-19 15:18:42	转连的京盟：uid:3;1000084020_1476122321
+
+2018-09-19 15:18:42	获取商品详情链接BEGIN:2018-09-19 15:18:42
+
+2018-09-19 15:18:42	获取商品详情链接END:2018-09-19 15:18:42
+
+2018-09-19 15:18:43	转连的京盟：uid:3;1000084020_1476122321
+
+2018-09-19 15:18:43	获取商品详情链接BEGIN:2018-09-19 15:18:43
+
+2018-09-19 15:18:44	获取商品详情链接END:2018-09-19 15:18:44
+
+2018-09-19 15:18:47	获取商品详情链接BEGIN:2018-09-19 15:18:47
+
+2018-09-19 15:18:47	转连的京盟：uid:3;1000084020_1476122321
+
+2018-09-19 15:18:47	获取商品详情链接END:2018-09-19 15:18:47
+
+2018-09-20 13:29:43	消息订阅：subscribe
+
+2018-09-20 13:32:21	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 13:32:23	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 13:32:23	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 13:32:26	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 13:32:29	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 13:32:47	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 13:32:49	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 13:32:53	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 13:32:59	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 13:32:59	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 13:33:02	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 13:33:05	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 13:33:06	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 13:33:10	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 13:33:11	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 13:33:15	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 13:33:57	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 13:33:58	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 13:34:01	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 13:34:08	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 13:34:32	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 13:34:46	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 13:35:15	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 13:35:17	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 13:35:18	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 13:35:20	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 13:35:21	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 13:35:27	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 13:35:27	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 13:35:46	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 13:36:17	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 13:36:29	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 13:36:30	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 13:36:30	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 13:36:33	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 13:37:09	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 13:38:40	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 13:38:42	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 13:38:44	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 13:46:05	获取商品详情链接BEGIN:2018-09-20 13:46:05
+
+2018-09-20 13:46:05	转连的京盟：uid:1;1000084020_1476122321
+
+2018-09-20 13:46:05	获取商品详情链接END:2018-09-20 13:46:05
+
+2018-09-20 13:46:06	获取商品详情链接BEGIN:2018-09-20 13:46:06
+
+2018-09-20 13:46:06	转连的京盟：uid:1;1000084020_1476122321
+
+2018-09-20 13:46:06	获取商品详情链接END:2018-09-20 13:46:06
+
+2018-09-20 13:46:19	获取商品详情链接BEGIN:2018-09-20 13:46:19
+
+2018-09-20 13:46:19	转连的京盟：uid:1;1000084020_1476122321
+
+2018-09-20 13:46:19	获取商品详情链接END:2018-09-20 13:46:19
+
+2018-09-20 13:46:19	获取商品详情链接BEGIN:2018-09-20 13:46:19
+
+2018-09-20 13:46:19	转连的京盟：uid:1;1000084020_1476122321
+
+2018-09-20 13:46:19	获取商品详情链接END:2018-09-20 13:46:19
+
+2018-09-20 13:46:21	获取商品详情链接BEGIN:2018-09-20 13:46:21
+
+2018-09-20 13:46:21	转连的京盟：uid:1;1000084020_1476122321
+
+2018-09-20 13:46:21	获取商品详情链接END:2018-09-20 13:46:21
+
+2018-09-20 13:46:22	获取商品详情链接BEGIN:2018-09-20 13:46:22
+
+2018-09-20 13:46:22	转连的京盟：uid:1;1000084020_1476122321
+
+2018-09-20 13:46:22	获取商品详情链接END:2018-09-20 13:46:22
+
+2018-09-20 13:51:35	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 13:51:35	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 13:54:17	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 13:54:18	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 13:54:18	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 13:54:55	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 13:54:55	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 13:54:55	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:02:13	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:02:15	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:02:16	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:03:52	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:03:55	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:03:56	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:03:56	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:03:57	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:03:58	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:03:59	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:04:02	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:04:05	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:04:06	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:04:06	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:04:08	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:04:10	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:04:10	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:07:00	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:07:01	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:07:02	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:07:12	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:14:37	getunionurlbysku转链会员的openid：oHJM34_Q6nM1dAE3D6ksOvMFBx3k
+
+2018-09-20 14:14:37	链接转链默认推广位1476122321:0:0
+
+2018-09-20 14:14:37	链接转链 skuId：361
+
+2018-09-20 14:14:37	链接转链 pid：1476122321
+
+2018-09-20 14:14:40	getunionurlbysku转链会员的openid：oHJM34_Q6nM1dAE3D6ksOvMFBx3k
+
+2018-09-20 14:14:40	链接转链默认推广位1476122321:0:0
+
+2018-09-20 14:14:40	链接转链 skuId：361
+
+2018-09-20 14:14:40	链接转链 pid：1476122321
+
+2018-09-20 14:14:40	getunionurlbysku转链会员的openid：oHJM34_Q6nM1dAE3D6ksOvMFBx3k
+
+2018-09-20 14:14:40	链接转链默认推广位1476122321:0:0
+
+2018-09-20 14:14:40	链接转链 skuId：361
+
+2018-09-20 14:14:40	链接转链 pid：1476122321
+
+2018-09-20 14:14:44	getunionurlbysku转链会员的openid：oHJM34_Q6nM1dAE3D6ksOvMFBx3k
+
+2018-09-20 14:14:44	链接转链默认推广位1476122321:0:0
+
+2018-09-20 14:14:44	链接转链 skuId：361
+
+2018-09-20 14:14:44	链接转链 pid：1476122321
+
+2018-09-20 14:23:51	转连的京盟：uid:1;1000084020_1476122321
+
+2018-09-20 14:23:51	获取商品详情链接BEGIN:2018-09-20 14:23:51
+
+2018-09-20 14:23:52	获取商品详情链接END:2018-09-20 14:23:52
+
+2018-09-20 14:23:52	获取商品详情链接BEGIN:2018-09-20 14:23:52
+
+2018-09-20 14:23:52	转连的京盟：uid:1;1000084020_1476122321
+
+2018-09-20 14:23:53	获取商品详情链接END:2018-09-20 14:23:53
+
+2018-09-20 14:25:58	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:26:59	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:27:01	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:27:02	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:39:14	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:39:33	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:39:41	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:41:04	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:41:37	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:41:53	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:42:01	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:42:15	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:42:15	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:42:34	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:43:34	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:43:38	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:43:41	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:43:45	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:43:57	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:44:02	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:44:09	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:45:28	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:46:17	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:50:23	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:51:20	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:52:10	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:53:50	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:53:52	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:54:31	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:54:38	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:56:03	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:56:25	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:56:26	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:56:41	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:56:46	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:58:06	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:58:09	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:58:37	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 14:58:55	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 15:01:35	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-09-20 15:03:53	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 15:03:55	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 15:04:02	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 15:04:15	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 15:04:17	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 15:04:23	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 15:04:35	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 15:04:36	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 15:04:38	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 15:04:49	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 15:04:50	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 15:07:09	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 15:07:16	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 15:07:17	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 15:07:26	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 15:09:32	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 15:09:33	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 15:17:02	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-09-20 15:21:04	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 15:38:22	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 15:38:24	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 15:40:54	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 15:41:59	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 15:42:11	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 16:00:17	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 16:01:24	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 16:02:19	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-09-20 16:02:28	会员身份：_
+
+2018-09-20 16:02:28	邀请会员ID：_
+
+2018-09-20 16:04:47	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-09-20 16:05:17	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-09-20 16:08:16	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 16:14:03	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 16:14:04	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 16:14:06	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 16:21:14	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 17:50:19	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 17:50:19	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 17:50:19	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 17:50:36	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 17:50:44	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 17:55:56	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 17:56:15	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 17:56:17	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 17:56:25	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 17:56:46	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 17:56:47	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 17:56:53	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:01:35	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:04:55	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-09-20 18:39:41	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:39:43	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:39:43	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:39:46	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:39:48	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:39:49	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:39:51	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:39:55	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:39:57	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:39:58	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:40:06	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:40:08	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:40:09	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:41:15	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:41:19	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:41:29	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:41:47	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:42:08	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:43:29	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:43:32	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:43:33	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:43:34	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:43:39	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:43:40	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:43:41	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:43:42	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:43:58	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:45:49	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:45:50	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:45:51	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:45:56	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:45:59	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:45:59	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:46:00	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:46:02	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:46:02	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:48:07	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:48:08	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:48:55	获取商品详情链接BEGIN:2018-09-20 18:48:55
+
+2018-09-20 18:48:55	转连的京盟：uid:1;1000084020_1476339166
+
+2018-09-20 18:48:56	获取商品详情链接BEGIN:2018-09-20 18:48:56
+
+2018-09-20 18:48:56	转连的京盟：uid:1;1000084020_1476339166
+
+2018-09-20 18:48:56	获取商品详情链接END:2018-09-20 18:48:56
+
+2018-09-20 18:48:56	获取商品详情链接END:2018-09-20 18:48:56
+
+2018-09-20 18:48:59	79cbe55f44194e1206104c8d68eafcc9254cafbe_1537440539_179689313_S3xLf5nFntbFXxV8r3iFNfRx3Xlnff8n
+
+2018-09-20 18:48:59	tmpStr:79cbe55f44194e1206104c8d68eafcc9254cafbe
+
+2018-09-20 18:48:59	signature:79cbe55f44194e1206104c8d68eafcc9254cafbe
+
+2018-09-20 18:48:59	check:true
+
+2018-09-20 18:48:59	kefu
+
+2018-09-20 18:48:59	小程序用户openid：oHJM34_Q6nM1dAE3D6ksOvMFBx3k
+
+2018-09-20 18:49:02	商品小程序码返回：
+
+2018-09-20 18:49:02	商品小程序码路径：2:"\/www\/wwwroot\/hjks1.zhekoule.com\/addons\/nets_haojk\/cache\/app_goods_qr_5939154_1.jpg"
+1537440542
+2018-09-20 18:49:12	商品小程序码路径：2:"\/www\/wwwroot\/hjks1.zhekoule.com\/addons\/nets_haojk\/cache\/app_goods_qr_5939154_1.jpg"
+1537440552
+2018-09-20 18:50:00	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:50:44	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:51:45	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:51:46	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:51:58	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:53:00	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:53:02	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:53:06	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:54:07	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:54:08	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:54:20	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:54:46	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:54:47	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 18:54:51	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 19:00:54	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 19:00:56	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 19:01:02	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 19:01:14	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 19:01:26	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 19:01:27	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 19:01:32	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 19:01:45	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 19:01:47	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 19:04:53	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 19:05:33	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 19:05:34	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 19:05:38	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 19:05:43	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 19:05:47	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 19:06:09	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 19:07:01	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 19:07:02	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 19:07:06	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 19:07:11	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 19:07:12	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 19:07:14	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 19:07:56	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 19:07:57	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 19:08:00	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 19:08:10	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 19:08:11	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 19:08:13	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 19:08:21	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 19:08:31	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 19:11:26	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 19:11:26	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 19:11:29	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 19:12:22	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 19:13:36	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 19:13:46	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 19:14:49	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 19:15:01	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 19:15:01	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 19:15:01	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 19:15:21	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 19:15:26	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 19:15:28	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-20 19:34:35	获取商品详情链接BEGIN:2018-09-20 19:34:35
+
+2018-09-20 19:34:35	转连的京盟：uid:1;1000084020_1476339166
+
+2018-09-20 19:34:35	获取商品详情链接END:2018-09-20 19:34:35
+
+2018-09-20 19:34:36	获取商品详情链接BEGIN:2018-09-20 19:34:36
+
+2018-09-20 19:34:36	转连的京盟：uid:1;1000084020_1476339166
+
+2018-09-20 19:34:36	获取商品详情链接END:2018-09-20 19:34:36
+
+2018-09-20 19:35:01	获取商品详情链接BEGIN:2018-09-20 19:35:01
+
+2018-09-20 19:35:01	转连的京盟：uid:1;1000084020_1476339166
+
+2018-09-20 19:35:01	获取商品详情链接END:2018-09-20 19:35:01
+
+2018-09-20 19:35:01	获取商品详情链接BEGIN:2018-09-20 19:35:01
+
+2018-09-20 19:35:01	转连的京盟：uid:1;1000084020_1476339166
+
+2018-09-20 19:35:01	获取商品详情链接END:2018-09-20 19:35:01
+
+2018-09-20 19:35:15	获取商品详情链接BEGIN:2018-09-20 19:35:15
+
+2018-09-20 19:35:15	转连的京盟：uid:1;1000084020_1476339166
+
+2018-09-20 19:35:15	获取商品详情链接END:2018-09-20 19:35:15
+
+2018-09-20 19:35:16	获取商品详情链接BEGIN:2018-09-20 19:35:16
+
+2018-09-20 19:35:16	转连的京盟：uid:1;1000084020_1476339166
+
+2018-09-20 19:35:16	获取商品详情链接END:2018-09-20 19:35:16
+
+2018-09-20 19:35:50	获取商品详情链接BEGIN:2018-09-20 19:35:50
+
+2018-09-20 19:35:50	转连的京盟：uid:1;1000084020_1476339166
+
+2018-09-20 19:35:50	获取商品详情链接END:2018-09-20 19:35:50
+
+2018-09-20 19:35:50	获取商品详情链接BEGIN:2018-09-20 19:35:50
+
+2018-09-20 19:35:50	转连的京盟：uid:1;1000084020_1476339166
+
+2018-09-20 19:35:50	获取商品详情链接END:2018-09-20 19:35:50
+
+2018-09-20 19:35:57	商品小程序码返回：
+
+2018-09-20 19:35:57	商品小程序码路径：2:"\/www\/wwwroot\/hjks1.zhekoule.com\/addons\/nets_haojk\/cache\/app_goods_qr_28275092845_1.jpg"
+1537443357
+2018-09-20 19:36:03	商品小程序码路径：2:"\/www\/wwwroot\/hjks1.zhekoule.com\/addons\/nets_haojk\/cache\/app_goods_qr_28275092845_1.jpg"
+1537443363
+2018-09-20 19:47:54	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-09-20 19:51:15	获取商品详情链接BEGIN:2018-09-20 19:51:15
+
+2018-09-20 19:51:15	转连的京盟：uid:1;1000084020_1476339166
+
+2018-09-20 19:51:15	获取商品详情链接END:2018-09-20 19:51:15
+
+2018-09-20 19:51:16	获取商品详情链接BEGIN:2018-09-20 19:51:16
+
+2018-09-20 19:51:16	转连的京盟：uid:1;1000084020_1476339166
+
+2018-09-20 19:51:16	获取商品详情链接END:2018-09-20 19:51:16
+
+2018-09-20 19:51:29	商品小程序码返回：
+
+2018-09-20 19:51:29	商品小程序码路径：2:"\/www\/wwwroot\/hjks1.zhekoule.com\/addons\/nets_haojk\/cache\/app_goods_qr_28132499761_1.jpg"
+1537444289
+2018-09-20 19:51:55	商品小程序码路径：2:"\/www\/wwwroot\/hjks1.zhekoule.com\/addons\/nets_haojk\/cache\/app_goods_qr_28132499761_1.jpg"
+1537444315
+2018-09-20 20:35:48	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-09-21 08:03:37	获取商品详情链接BEGIN:2018-09-21 08:03:37
+
+2018-09-21 08:03:37	转连的京盟：uid:1;1000084020_1476339166
+
+2018-09-21 08:03:37	获取商品详情链接END:2018-09-21 08:03:37
+
+2018-09-21 08:03:49	获取商品详情链接BEGIN:2018-09-21 08:03:49
+
+2018-09-21 08:03:49	转连的京盟：uid:1;1000084020_1476339166
+
+2018-09-21 08:03:49	获取商品详情链接BEGIN:2018-09-21 08:03:49
+
+2018-09-21 08:03:49	转连的京盟：uid:1;1000084020_1476339166
+
+2018-09-21 08:03:49	获取商品详情链接END:2018-09-21 08:03:49
+
+2018-09-21 08:03:50	获取商品详情链接END:2018-09-21 08:03:50
+
+2018-09-21 08:03:52	获取商品详情链接BEGIN:2018-09-21 08:03:52
+
+2018-09-21 08:03:52	转连的京盟：uid:1;1000084020_1476339166
+
+2018-09-21 08:03:53	获取商品详情链接END:2018-09-21 08:03:53
+
+2018-09-21 08:05:05	获取商品详情链接BEGIN:2018-09-21 08:05:05
+
+2018-09-21 08:05:06	转连的京盟：uid:1;1000084020_1476339166
+
+2018-09-21 08:05:06	获取商品详情链接END:2018-09-21 08:05:06
+
+2018-09-21 08:05:06	获取商品详情链接BEGIN:2018-09-21 08:05:06
+
+2018-09-21 08:05:06	转连的京盟：uid:1;1000084020_1476339166
+
+2018-09-21 08:05:06	获取商品详情链接END:2018-09-21 08:05:06
+
+2018-09-22 06:44:12	获取商品详情链接BEGIN:2018-09-22 06:44:12
+
+2018-09-22 06:44:12	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-22 06:44:12	获取商品详情链接END:2018-09-22 06:44:12
+
+2018-09-22 06:44:13	获取商品详情链接BEGIN:2018-09-22 06:44:13
+
+2018-09-22 06:44:13	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-22 06:44:13	获取商品详情链接END:2018-09-22 06:44:13
+
+2018-09-22 06:45:04	获取商品详情链接BEGIN:2018-09-22 06:45:04
+
+2018-09-22 06:45:04	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-22 06:45:04	获取商品详情链接END:2018-09-22 06:45:04
+
+2018-09-22 06:45:05	获取商品详情链接BEGIN:2018-09-22 06:45:05
+
+2018-09-22 06:45:05	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-22 06:45:05	获取商品详情链接END:2018-09-22 06:45:05
+
+2018-09-22 06:46:06	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-22 06:46:06	获取商品详情链接BEGIN:2018-09-22 06:46:06
+
+2018-09-22 06:46:06	获取商品详情链接END:2018-09-22 06:46:06
+
+2018-09-22 06:46:07	获取商品详情链接BEGIN:2018-09-22 06:46:07
+
+2018-09-22 06:46:07	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-22 06:46:07	获取商品详情链接END:2018-09-22 06:46:07
+
+2018-09-22 07:32:15	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-09-22 07:33:06	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-09-22 07:33:11	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-09-22 07:33:41	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-22 07:33:41	获取商品详情链接BEGIN:2018-09-22 07:33:41
+
+2018-09-22 07:33:42	获取商品详情链接END:2018-09-22 07:33:42
+
+2018-09-22 07:33:42	获取商品详情链接BEGIN:2018-09-22 07:33:42
+
+2018-09-22 07:33:42	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-22 07:33:42	获取商品详情链接END:2018-09-22 07:33:42
+
+2018-09-22 07:33:47	商品小程序码返回：
+
+2018-09-22 07:33:47	商品小程序码路径：2:"\/www\/wwwroot\/hjks1.zhekoule.com\/addons\/nets_haojk\/cache\/app_goods_qr_16288740014_5.jpg"
+1537572827
+2018-09-22 07:35:28	获取商品详情链接BEGIN:2018-09-22 07:35:28
+
+2018-09-22 07:35:28	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-22 07:35:28	获取商品详情链接END:2018-09-22 07:35:28
+
+2018-09-22 07:35:29	获取商品详情链接BEGIN:2018-09-22 07:35:29
+
+2018-09-22 07:35:29	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-22 07:35:29	获取商品详情链接END:2018-09-22 07:35:29
+
+2018-09-22 07:35:39	商品小程序码返回：
+
+2018-09-22 07:35:39	商品小程序码路径：2:"\/www\/wwwroot\/hjks1.zhekoule.com\/addons\/nets_haojk\/cache\/app_goods_qr_32799370990_5.jpg"
+1537572939
+2018-09-22 07:37:23	获取商品详情链接BEGIN:2018-09-22 07:37:23
+
+2018-09-22 07:37:23	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-22 07:37:23	获取商品详情链接END:2018-09-22 07:37:23
+
+2018-09-22 07:37:24	获取商品详情链接BEGIN:2018-09-22 07:37:24
+
+2018-09-22 07:37:24	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-22 07:37:24	获取商品详情链接END:2018-09-22 07:37:24
+
+2018-09-22 07:37:36	获取商品详情链接BEGIN:2018-09-22 07:37:36
+
+2018-09-22 07:37:36	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-22 07:37:36	获取商品详情链接END:2018-09-22 07:37:36
+
+2018-09-22 07:37:37	获取商品详情链接BEGIN:2018-09-22 07:37:37
+
+2018-09-22 07:37:37	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-22 07:37:37	获取商品详情链接END:2018-09-22 07:37:37
+
+2018-09-22 07:38:10	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-22 07:38:10	获取商品详情链接BEGIN:2018-09-22 07:38:10
+
+2018-09-22 07:38:10	获取商品详情链接END:2018-09-22 07:38:10
+
+2018-09-22 07:38:11	获取商品详情链接BEGIN:2018-09-22 07:38:11
+
+2018-09-22 07:38:11	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-22 07:38:11	获取商品详情链接END:2018-09-22 07:38:11
+
+2018-09-22 07:38:15	商品小程序码返回：
+
+2018-09-22 07:38:15	商品小程序码路径：2:"\/www\/wwwroot\/hjks1.zhekoule.com\/addons\/nets_haojk\/cache\/app_goods_qr_32792969517_5.jpg"
+1537573095
+2018-09-22 07:39:51	获取商品详情链接BEGIN:2018-09-22 07:39:51
+
+2018-09-22 07:39:52	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-22 07:39:52	获取商品详情链接END:2018-09-22 07:39:52
+
+2018-09-22 07:39:54	获取商品详情链接BEGIN:2018-09-22 07:39:54
+
+2018-09-22 07:39:54	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-22 07:39:54	获取商品详情链接END:2018-09-22 07:39:54
+
+2018-09-22 07:40:03	商品小程序码返回：
+
+2018-09-22 07:40:03	商品小程序码路径：2:"\/www\/wwwroot\/hjks1.zhekoule.com\/addons\/nets_haojk\/cache\/app_goods_qr_29501543455_5.jpg"
+1537573203
+2018-09-22 07:40:49	获取商品详情链接BEGIN:2018-09-22 07:40:49
+
+2018-09-22 07:40:49	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-22 07:40:49	获取商品详情链接END:2018-09-22 07:40:49
+
+2018-09-22 07:40:50	获取商品详情链接BEGIN:2018-09-22 07:40:50
+
+2018-09-22 07:40:50	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-22 07:40:50	获取商品详情链接END:2018-09-22 07:40:50
+
+2018-09-22 07:40:56	商品小程序码返回：
+
+2018-09-22 07:40:56	商品小程序码路径：2:"\/www\/wwwroot\/hjks1.zhekoule.com\/addons\/nets_haojk\/cache\/app_goods_qr_32359294915_5.jpg"
+1537573256
+2018-09-22 07:42:29	获取商品详情链接BEGIN:2018-09-22 07:42:29
+
+2018-09-22 07:42:29	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-22 07:42:29	获取商品详情链接END:2018-09-22 07:42:29
+
+2018-09-22 07:42:30	获取商品详情链接BEGIN:2018-09-22 07:42:30
+
+2018-09-22 07:42:30	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-22 07:42:30	获取商品详情链接END:2018-09-22 07:42:30
+
+2018-09-22 07:42:35	商品小程序码返回：
+
+2018-09-22 07:42:35	商品小程序码路径：2:"\/www\/wwwroot\/hjks1.zhekoule.com\/addons\/nets_haojk\/cache\/app_goods_qr_20776925183_5.jpg"
+1537573355
+2018-09-22 07:43:26	获取商品详情链接BEGIN:2018-09-22 07:43:26
+
+2018-09-22 07:43:26	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-22 07:43:26	获取商品详情链接END:2018-09-22 07:43:26
+
+2018-09-22 07:43:27	获取商品详情链接BEGIN:2018-09-22 07:43:27
+
+2018-09-22 07:43:27	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-22 07:43:27	获取商品详情链接END:2018-09-22 07:43:27
+
+2018-09-22 07:43:37	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-22 07:43:37	获取商品详情链接BEGIN:2018-09-22 07:43:37
+
+2018-09-22 07:43:37	获取商品详情链接END:2018-09-22 07:43:37
+
+2018-09-22 07:43:37	获取商品详情链接BEGIN:2018-09-22 07:43:37
+
+2018-09-22 07:43:37	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-22 07:43:37	获取商品详情链接END:2018-09-22 07:43:37
+
+2018-09-22 07:43:50	获取商品详情链接BEGIN:2018-09-22 07:43:50
+
+2018-09-22 07:43:51	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-22 07:43:51	获取商品详情链接END:2018-09-22 07:43:51
+
+2018-09-22 07:43:51	获取商品详情链接BEGIN:2018-09-22 07:43:51
+
+2018-09-22 07:43:51	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-22 07:43:51	获取商品详情链接END:2018-09-22 07:43:51
+
+2018-09-22 07:44:03	获取商品详情链接BEGIN:2018-09-22 07:44:03
+
+2018-09-22 07:44:03	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-22 07:44:03	获取商品详情链接END:2018-09-22 07:44:03
+
+2018-09-22 07:44:03	获取商品详情链接BEGIN:2018-09-22 07:44:03
+
+2018-09-22 07:44:04	获取商品详情链接END:2018-09-22 07:44:04
+
+2018-09-22 07:44:04	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-22 07:44:25	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-22 07:44:25	获取商品详情链接BEGIN:2018-09-22 07:44:25
+
+2018-09-22 07:44:26	获取商品详情链接END:2018-09-22 07:44:26
+
+2018-09-22 07:44:26	获取商品详情链接BEGIN:2018-09-22 07:44:26
+
+2018-09-22 07:44:26	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-22 07:44:26	获取商品详情链接END:2018-09-22 07:44:26
+
+2018-09-22 07:44:35	获取商品详情链接BEGIN:2018-09-22 07:44:35
+
+2018-09-22 07:44:35	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-22 07:44:36	获取商品详情链接END:2018-09-22 07:44:36
+
+2018-09-22 07:44:37	获取商品详情链接BEGIN:2018-09-22 07:44:37
+
+2018-09-22 07:44:37	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-22 07:44:37	获取商品详情链接END:2018-09-22 07:44:37
+
+2018-09-22 07:44:39	获取商品详情链接BEGIN:2018-09-22 07:44:39
+
+2018-09-22 07:44:40	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-22 07:44:40	获取商品详情链接END:2018-09-22 07:44:40
+
+2018-09-22 07:44:40	获取商品详情链接BEGIN:2018-09-22 07:44:40
+
+2018-09-22 07:44:40	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-22 07:44:40	获取商品详情链接END:2018-09-22 07:44:40
+
+2018-09-22 07:44:44	商品小程序码返回：
+
+2018-09-22 07:44:44	商品小程序码路径：2:"\/www\/wwwroot\/hjks1.zhekoule.com\/addons\/nets_haojk\/cache\/app_goods_qr_32372286820_5.jpg"
+1537573484
+2018-09-22 07:49:08	获取商品详情链接BEGIN:2018-09-22 07:49:08
+
+2018-09-22 07:49:08	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-22 07:49:08	获取商品详情链接END:2018-09-22 07:49:08
+
+2018-09-22 07:49:09	获取商品详情链接BEGIN:2018-09-22 07:49:09
+
+2018-09-22 07:49:09	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-22 07:49:09	获取商品详情链接END:2018-09-22 07:49:09
+
+2018-09-22 07:49:22	获取商品详情链接BEGIN:2018-09-22 07:49:22
+
+2018-09-22 07:49:22	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-22 07:49:22	获取商品详情链接END:2018-09-22 07:49:22
+
+2018-09-22 07:49:23	获取商品详情链接BEGIN:2018-09-22 07:49:23
+
+2018-09-22 07:49:23	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-22 07:49:23	获取商品详情链接END:2018-09-22 07:49:23
+
+2018-09-22 07:56:51	获取商品详情链接BEGIN:2018-09-22 07:56:51
+
+2018-09-22 07:56:51	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-22 07:56:51	获取商品详情链接END:2018-09-22 07:56:51
+
+2018-09-22 07:56:51	获取商品详情链接BEGIN:2018-09-22 07:56:51
+
+2018-09-22 07:56:52	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-22 07:56:52	获取商品详情链接END:2018-09-22 07:56:52
+
+2018-09-22 07:56:59	商品小程序码返回：
+
+2018-09-22 07:56:59	商品小程序码路径：2:"\/www\/wwwroot\/hjks1.zhekoule.com\/addons\/nets_haojk\/cache\/app_goods_qr_29806396116_5.jpg"
+1537574219
+2018-09-22 12:00:24	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-22 12:00:24	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-22 12:00:26	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-22 12:00:32	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-22 14:32:05	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-22 14:36:49	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-22 14:36:54	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-22 14:38:09	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-22 14:56:40	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-22 14:56:40	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-22 14:56:50	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-22 14:56:50	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-22 14:56:50	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-22 14:56:50	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-22 14:56:53	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-22 15:18:37	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-22 15:18:41	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-25 18:49:29	获取商品详情链接BEGIN:2018-09-25 18:49:29
+
+2018-09-25 18:49:29	转连的京盟：uid:1;1000084020_1476339166
+
+2018-09-25 18:49:30	转连的京盟：uid:1;1000084020_1476339166
+
+2018-09-25 18:49:30	获取商品详情链接BEGIN:2018-09-25 18:49:30
+
+2018-09-25 18:49:30	获取商品详情链接END:2018-09-25 18:49:30
+
+2018-09-25 18:49:31	获取商品详情链接END:2018-09-25 18:49:31
+
+2018-09-25 18:49:43	获取商品详情链接BEGIN:2018-09-25 18:49:43
+
+2018-09-25 18:49:43	转连的京盟：uid:1;1000084020_1476339166
+
+2018-09-25 18:49:43	获取商品详情链接END:2018-09-25 18:49:43
+
+2018-09-25 18:49:43	获取商品详情链接BEGIN:2018-09-25 18:49:43
+
+2018-09-25 18:49:43	转连的京盟：uid:1;1000084020_1476339166
+
+2018-09-25 18:49:43	获取商品详情链接END:2018-09-25 18:49:43
+
+2018-09-25 18:50:20	消息订阅：subscribe
+
+2018-09-25 18:50:30	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-25 18:50:30	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-25 18:50:31	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-25 18:50:35	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-25 18:50:37	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-25 18:51:56	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-25 18:51:59	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-25 18:52:04	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-25 18:52:28	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-25 18:55:26	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-25 18:56:16	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-25 18:56:36	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-25 18:57:45	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-25 18:57:51	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-25 18:58:03	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-25 18:58:21	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-25 18:58:27	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-25 18:58:34	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-25 19:06:00	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-25 21:51:35	获取商品详情链接BEGIN:2018-09-25 21:51:35
+
+2018-09-25 21:51:35	转连的京盟：uid:1;1000084020_1476339166
+
+2018-09-25 21:51:36	获取商品详情链接END:2018-09-25 21:51:36
+
+2018-09-25 21:51:37	获取商品详情链接BEGIN:2018-09-25 21:51:37
+
+2018-09-25 21:51:37	转连的京盟：uid:1;1000084020_1476339166
+
+2018-09-25 21:51:37	获取商品详情链接END:2018-09-25 21:51:37
+
+2018-09-25 22:43:15	获取商品详情链接BEGIN:2018-09-25 22:43:15
+
+2018-09-25 22:43:15	转连的京盟：uid:6;1000084020_1476122321
+
+2018-09-25 22:43:15	获取商品详情链接BEGIN:2018-09-25 22:43:15
+
+2018-09-25 22:43:15	获取商品详情链接END:2018-09-25 22:43:15
+
+2018-09-25 22:43:15	转连的京盟：uid:6;1000084020_1476122321
+
+2018-09-25 22:43:15	获取商品详情链接END:2018-09-25 22:43:15
+
+2018-09-25 22:43:44	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-09-25 22:43:49	8a4a44531c582c08d260fc1d315e7974bb1112d8_1537886629_1448988544_S3xLf5nFntbFXxV8r3iFNfRx3Xlnff8n
+
+2018-09-25 22:43:49	tmpStr:8a4a44531c582c08d260fc1d315e7974bb1112d8
+
+2018-09-25 22:43:49	signature:8a4a44531c582c08d260fc1d315e7974bb1112d8
+
+2018-09-25 22:43:49	check:true
+
+2018-09-25 22:43:50	kefu
+
+2018-09-25 22:43:50	小程序用户openid：oHJM345TpmjRDuaijEDgJ2shFl1s
+
+2018-09-25 22:44:25	获取商品详情链接BEGIN:2018-09-25 22:44:25
+
+2018-09-25 22:44:25	转连的京盟：uid:1;1000084020_1476339166
+
+2018-09-25 22:44:25	获取商品详情链接END:2018-09-25 22:44:25
+
+2018-09-25 22:44:26	转连的京盟：uid:1;1000084020_1476339166
+
+2018-09-25 22:44:26	获取商品详情链接BEGIN:2018-09-25 22:44:26
+
+2018-09-25 22:44:26	获取商品详情链接END:2018-09-25 22:44:26
+
+2018-09-25 22:46:18	获取商品详情链接BEGIN:2018-09-25 22:46:18
+
+2018-09-25 22:46:18	转连的京盟：uid:1;1000084020_1476339166
+
+2018-09-25 22:46:19	获取商品详情链接END:2018-09-25 22:46:19
+
+2018-09-25 22:46:20	获取商品详情链接BEGIN:2018-09-25 22:46:20
+
+2018-09-25 22:46:20	转连的京盟：uid:1;1000084020_1476339166
+
+2018-09-25 22:46:20	获取商品详情链接END:2018-09-25 22:46:20
+
+2018-09-25 22:47:46	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-25 22:47:47	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-25 22:47:47	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-25 22:47:51	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-25 22:48:06	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-25 22:48:36	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-25 23:22:58	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-25 23:27:37	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-25 23:27:37	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-25 23:27:57	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-25 23:28:40	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-25 23:28:41	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-25 23:28:44	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-25 23:28:54	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-25 23:28:55	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-25 23:28:57	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-25 23:29:09	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-25 23:29:11	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-25 23:29:15	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-25 23:29:27	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-25 23:29:28	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-25 23:29:30	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-25 23:29:41	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-25 23:29:43	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-25 23:29:45	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-26 22:14:57	获取商品详情链接BEGIN:2018-09-26 22:14:57
+
+2018-09-26 22:14:57	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-26 22:14:57	获取商品详情链接END:2018-09-26 22:14:57
+
+2018-09-26 22:14:57	获取商品详情链接BEGIN:2018-09-26 22:14:57
+
+2018-09-26 22:14:57	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-26 22:14:58	获取商品详情链接END:2018-09-26 22:14:58
+
+2018-09-26 22:35:02	获取商品详情链接BEGIN:2018-09-26 22:35:02
+
+2018-09-26 22:35:03	转连的京盟：uid:1;1000084020_1476339166
+
+2018-09-26 22:35:03	获取商品详情链接END:2018-09-26 22:35:03
+
+2018-09-26 22:35:05	获取商品详情链接BEGIN:2018-09-26 22:35:05
+
+2018-09-26 22:35:05	转连的京盟：uid:1;1000084020_1476339166
+
+2018-09-26 22:35:05	获取商品详情链接END:2018-09-26 22:35:05
+
+2018-09-26 22:35:10	转连的京盟：uid:1;1000084020_1476339166
+
+2018-09-26 22:35:10	获取商品详情链接BEGIN:2018-09-26 22:35:10
+
+2018-09-26 22:35:11	获取商品详情链接END:2018-09-26 22:35:11
+
+2018-09-26 22:35:12	获取商品详情链接BEGIN:2018-09-26 22:35:12
+
+2018-09-26 22:35:12	转连的京盟：uid:1;1000084020_1476339166
+
+2018-09-26 22:35:12	获取商品详情链接END:2018-09-26 22:35:12
+
+2018-09-26 22:36:07	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-09-26 22:42:51	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-26 22:42:52	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-26 22:42:53	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-26 22:43:00	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-26 22:43:59	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-26 22:44:19	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-26 23:01:29	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-09-27 13:25:47	获取商品详情链接BEGIN:2018-09-27 13:25:47
+
+2018-09-27 13:25:47	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-27 13:25:47	获取商品详情链接END:2018-09-27 13:25:47
+
+2018-09-27 13:25:47	获取商品详情链接BEGIN:2018-09-27 13:25:47
+
+2018-09-27 13:25:47	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-27 13:25:47	获取商品详情链接END:2018-09-27 13:25:47
+
+2018-09-27 13:25:56	商品小程序码返回：
+
+2018-09-27 13:25:56	商品小程序码路径：2:"\/www\/wwwroot\/hjks1.zhekoule.com\/addons\/nets_haojk\/cache\/app_goods_qr_26807652679_5.jpg"
+1538025956
+2018-09-27 13:26:01	商品小程序码路径：2:"\/www\/wwwroot\/hjks1.zhekoule.com\/addons\/nets_haojk\/cache\/app_goods_qr_26807652679_5.jpg"
+1538025961
+2018-09-27 16:03:39	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 16:03:39	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 16:03:39	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 16:03:50	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 16:04:04	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 16:04:04	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 16:04:36	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 16:04:45	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 16:04:56	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 16:05:15	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 16:05:19	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 16:05:21	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 16:05:44	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 16:05:46	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 16:05:46	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 16:06:25	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 16:06:26	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 16:06:27	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 16:08:19	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 16:08:52	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 16:09:23	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 16:09:26	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 16:11:21	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 16:13:13	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 16:14:48	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 16:15:10	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 16:17:35	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 16:17:53	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 16:17:54	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 16:19:13	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 16:19:16	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 16:19:40	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 16:20:37	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 16:20:37	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 16:20:37	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 17:04:47	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 17:05:11	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 17:05:11	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 18:20:24	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 18:20:33	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 18:20:35	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 18:21:35	获取商品详情链接BEGIN:2018-09-27 18:21:35
+
+2018-09-27 18:21:35	转连的京盟：uid:1;1000084020_1476339166
+
+2018-09-27 18:21:35	获取商品详情链接END:2018-09-27 18:21:35
+
+2018-09-27 18:21:36	获取商品详情链接BEGIN:2018-09-27 18:21:36
+
+2018-09-27 18:21:36	转连的京盟：uid:1;1000084020_1476339166
+
+2018-09-27 18:21:36	获取商品详情链接END:2018-09-27 18:21:36
+
+2018-09-27 18:22:04	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-09-27 18:22:40	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 18:22:41	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 18:29:36	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 18:29:36	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 18:29:53	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 18:30:19	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 18:30:19	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 18:30:32	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 18:30:34	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 18:30:34	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 18:31:07	获取商品详情链接BEGIN:2018-09-27 18:31:07
+
+2018-09-27 18:31:07	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-27 18:31:07	获取商品详情链接END:2018-09-27 18:31:07
+
+2018-09-27 18:31:08	获取商品详情链接BEGIN:2018-09-27 18:31:08
+
+2018-09-27 18:31:08	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-27 18:31:08	获取商品详情链接END:2018-09-27 18:31:08
+
+2018-09-27 18:32:07	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-09-27 18:32:15	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-09-27 18:32:59	5c62318b566892f138ac295052dc9aa31a36b940_1538044379_1937888349_S3xLf5nFntbFXxV8r3iFNfRx3Xlnff8n
+
+2018-09-27 18:32:59	tmpStr:5c62318b566892f138ac295052dc9aa31a36b940
+
+2018-09-27 18:32:59	signature:5c62318b566892f138ac295052dc9aa31a36b940
+
+2018-09-27 18:32:59	check:true
+
+2018-09-27 18:32:59	kefu
+
+2018-09-27 18:32:59	小程序用户openid：oHJM341YRCqkivCRASZj3uyrq_Ug
+
+2018-09-27 18:33:04	c67c0d1b323cc457ebb4eb246a2ac1715bf4c178_1538044384_1844883983_S3xLf5nFntbFXxV8r3iFNfRx3Xlnff8n
+
+2018-09-27 18:33:04	tmpStr:c67c0d1b323cc457ebb4eb246a2ac1715bf4c178
+
+2018-09-27 18:33:04	signature:c67c0d1b323cc457ebb4eb246a2ac1715bf4c178
+
+2018-09-27 18:33:04	check:true
+
+2018-09-27 18:33:04	
+
+2018-09-27 18:33:04	小程序用户openid：oHJM341YRCqkivCRASZj3uyrq_Ug
+
+2018-09-27 18:33:07	1f17a582397c57782cef3e5251d5bad6a7af11d1_1538044387_2134973205_S3xLf5nFntbFXxV8r3iFNfRx3Xlnff8n
+
+2018-09-27 18:33:07	tmpStr:1f17a582397c57782cef3e5251d5bad6a7af11d1
+
+2018-09-27 18:33:07	signature:1f17a582397c57782cef3e5251d5bad6a7af11d1
+
+2018-09-27 18:33:07	check:true
+
+2018-09-27 18:33:07	kefu
+
+2018-09-27 18:33:07	小程序用户openid：oHJM341YRCqkivCRASZj3uyrq_Ug
+
+2018-09-27 18:33:15	d5842e6b3cbfa957d58146caa1a1337b8ad05472_1538044395_669077640_S3xLf5nFntbFXxV8r3iFNfRx3Xlnff8n
+
+2018-09-27 18:33:15	tmpStr:d5842e6b3cbfa957d58146caa1a1337b8ad05472
+
+2018-09-27 18:33:15	signature:d5842e6b3cbfa957d58146caa1a1337b8ad05472
+
+2018-09-27 18:33:15	check:true
+
+2018-09-27 18:33:15	
+
+2018-09-27 18:33:15	小程序用户openid：oHJM341YRCqkivCRASZj3uyrq_Ug
+
+2018-09-27 18:33:19	95cd84ac319d51cd97c0f207d1b2530263fff88a_1538044399_1642133339_S3xLf5nFntbFXxV8r3iFNfRx3Xlnff8n
+
+2018-09-27 18:33:19	tmpStr:95cd84ac319d51cd97c0f207d1b2530263fff88a
+
+2018-09-27 18:33:19	signature:95cd84ac319d51cd97c0f207d1b2530263fff88a
+
+2018-09-27 18:33:19	check:true
+
+2018-09-27 18:33:19	
+
+2018-09-27 18:33:19	小程序用户openid：oHJM341YRCqkivCRASZj3uyrq_Ug
+
+2018-09-27 18:39:35	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 18:39:36	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 18:39:47	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 18:39:48	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 18:40:07	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 18:40:08	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 18:40:09	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 18:40:11	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 18:40:17	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 18:40:41	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 18:40:50	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 18:41:20	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 18:42:22	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 18:42:23	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 18:42:30	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 18:42:30	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 18:42:30	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 18:42:40	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 18:43:09	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 18:43:13	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 18:48:34	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 18:48:34	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 18:48:38	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 18:50:21	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-09-27 18:51:01	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-09-27 18:52:32	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 18:52:32	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 18:52:57	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 18:52:57	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 18:53:31	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-09-27 18:55:10	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-09-27 18:55:22	649b80e572286d3633cc81390f1803e66b8dedd3_1538045722_1785591785_S3xLf5nFntbFXxV8r3iFNfRx3Xlnff8n
+
+2018-09-27 18:55:22	tmpStr:649b80e572286d3633cc81390f1803e66b8dedd3
+
+2018-09-27 18:55:22	signature:649b80e572286d3633cc81390f1803e66b8dedd3
+
+2018-09-27 18:55:22	check:true
+
+2018-09-27 18:55:22	kefu
+
+2018-09-27 18:55:22	小程序用户openid：oHJM341YRCqkivCRASZj3uyrq_Ug
+
+2018-09-27 19:08:21	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 19:08:22	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 19:09:53	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 19:09:53	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 19:09:54	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 19:13:14	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-09-27 19:18:18	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 19:18:25	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 19:18:27	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 19:18:28	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 19:18:34	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 19:18:35	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 19:18:38	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 19:18:44	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 19:18:46	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 19:18:51	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 19:18:55	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 19:18:56	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 19:19:00	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 19:19:04	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 19:19:06	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 19:19:10	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-27 20:32:58	获取商品详情链接BEGIN:2018-09-27 20:32:58
+
+2018-09-27 20:32:58	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-27 20:32:58	获取商品详情链接END:2018-09-27 20:32:58
+
+2018-09-27 20:32:58	获取商品详情链接BEGIN:2018-09-27 20:32:58
+
+2018-09-27 20:32:58	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-27 20:32:59	获取商品详情链接END:2018-09-27 20:32:59
+
+2018-09-27 20:33:02	商品小程序码返回：
+
+2018-09-27 20:33:02	商品小程序码路径：2:"\/www\/wwwroot\/hjks1.zhekoule.com\/addons\/nets_haojk\/cache\/app_goods_qr_28318355042_5.jpg"
+1538051582
+2018-09-28 01:20:57	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-09-28 01:35:08	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 01:44:19	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 01:44:23	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 01:44:30	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 01:45:44	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 01:45:46	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 01:46:00	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 01:46:19	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 01:46:29	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 01:47:36	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 01:47:37	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 01:47:46	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 01:49:15	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 01:49:17	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 01:50:02	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 01:50:09	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 01:51:25	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 01:51:28	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 01:51:30	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 01:51:39	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 01:51:40	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 01:51:42	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 01:51:49	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 01:51:51	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 01:51:54	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 01:52:01	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 01:52:02	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 01:52:04	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 01:52:10	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 01:52:12	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 01:52:14	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 01:52:20	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 01:52:22	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 01:52:33	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 01:52:45	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 01:52:46	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 01:55:05	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 01:55:13	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 01:55:14	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 01:57:21	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 01:58:44	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 01:58:45	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 02:01:26	获取商品详情链接BEGIN:2018-09-28 02:01:26
+
+2018-09-28 02:01:26	转连的京盟：uid:1;1000084020_1476339166
+
+2018-09-28 02:01:26	获取商品详情链接END:2018-09-28 02:01:26
+
+2018-09-28 02:01:27	获取商品详情链接BEGIN:2018-09-28 02:01:27
+
+2018-09-28 02:01:27	获取商品详情链接END:2018-09-28 02:01:27
+
+2018-09-28 02:01:27	转连的京盟：uid:1;1000084020_1476339166
+
+2018-09-28 02:01:44	获取商品详情链接BEGIN:2018-09-28 02:01:44
+
+2018-09-28 02:01:44	转连的京盟：uid:1;1000084020_1476339166
+
+2018-09-28 02:01:44	获取商品详情链接END:2018-09-28 02:01:44
+
+2018-09-28 02:01:45	获取商品详情链接BEGIN:2018-09-28 02:01:45
+
+2018-09-28 02:01:45	转连的京盟：uid:1;1000084020_1476339166
+
+2018-09-28 02:01:45	获取商品详情链接END:2018-09-28 02:01:45
+
+2018-09-28 02:03:18	获取商品详情链接BEGIN:2018-09-28 02:03:18
+
+2018-09-28 02:03:19	转连的京盟：uid:1;1000084020_1476339166
+
+2018-09-28 02:03:19	获取商品详情链接END:2018-09-28 02:03:19
+
+2018-09-28 02:03:19	获取商品详情链接BEGIN:2018-09-28 02:03:19
+
+2018-09-28 02:03:19	转连的京盟：uid:1;1000084020_1476339166
+
+2018-09-28 02:03:19	获取商品详情链接END:2018-09-28 02:03:19
+
+2018-09-28 02:03:22	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-09-28 02:07:06	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-09-28 02:07:07	会员身份：_
+
+2018-09-28 02:07:07	邀请会员ID：_
+
+2018-09-28 07:38:19	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-09-28 07:39:35	获取商品详情链接BEGIN:2018-09-28 07:39:35
+
+2018-09-28 07:39:35	转连的京盟：uid:1;1000084020_1476339166
+
+2018-09-28 07:39:35	获取商品详情链接END:2018-09-28 07:39:35
+
+2018-09-28 07:39:35	获取商品详情链接BEGIN:2018-09-28 07:39:35
+
+2018-09-28 07:39:36	转连的京盟：uid:1;1000084020_1476339166
+
+2018-09-28 07:39:36	获取商品详情链接END:2018-09-28 07:39:36
+
+2018-09-28 07:39:40	获取商品详情链接BEGIN:2018-09-28 07:39:40
+
+2018-09-28 07:39:40	转连的京盟：uid:1;1000084020_1476339166
+
+2018-09-28 07:39:40	获取商品详情链接END:2018-09-28 07:39:40
+
+2018-09-28 07:39:41	获取商品详情链接BEGIN:2018-09-28 07:39:41
+
+2018-09-28 07:39:41	转连的京盟：uid:1;1000084020_1476339166
+
+2018-09-28 07:39:41	获取商品详情链接END:2018-09-28 07:39:41
+
+2018-09-28 10:53:20	获取商品详情链接BEGIN:2018-09-28 10:53:20
+
+2018-09-28 10:53:20	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-28 10:53:21	获取商品详情链接END:2018-09-28 10:53:21
+
+2018-09-28 10:53:21	获取商品详情链接BEGIN:2018-09-28 10:53:21
+
+2018-09-28 10:53:21	转连的京盟：uid:5;1000084020_1476122321
+
+2018-09-28 10:53:21	获取商品详情链接END:2018-09-28 10:53:21
+
+2018-09-28 10:53:31	商品小程序码返回：
+
+2018-09-28 10:53:31	商品小程序码路径：2:"\/www\/wwwroot\/hjks1.zhekoule.com\/addons\/nets_haojk\/cache\/app_goods_qr_28122282844_5.jpg"
+1538103211
+2018-09-28 11:18:54	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 11:18:59	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 11:19:13	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 11:20:17	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 11:21:20	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 11:21:31	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 11:21:32	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 11:21:44	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 11:21:49	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 11:21:50	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 11:21:56	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 11:22:01	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 13:37:25	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 13:37:31	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 13:37:44	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 13:39:22	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-09-28 13:39:57	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-09-28 13:40:42	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-09-28 13:40:48	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-09-28 13:41:51	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 13:54:11	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 13:54:11	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 13:54:13	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 13:54:13	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 13:54:26	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 13:55:58	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 13:56:41	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 13:58:14	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 13:58:15	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 13:58:30	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 13:58:30	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 13:58:31	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 13:58:36	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 13:58:38	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 13:58:53	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 13:58:57	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 17:13:15	获取商品详情链接BEGIN:2018-09-28 17:13:15
+
+2018-09-28 17:13:15	转连的京盟：uid:8;1000084020_1476307672
+
+2018-09-28 17:13:15	获取商品详情链接END:2018-09-28 17:13:15
+
+2018-09-28 17:13:16	获取商品详情链接BEGIN:2018-09-28 17:13:16
+
+2018-09-28 17:13:16	转连的京盟：uid:8;1000084020_1476307672
+
+2018-09-28 17:13:16	获取商品详情链接END:2018-09-28 17:13:16
+
+2018-09-28 17:13:47	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-09-28 17:14:14	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-09-28 17:14:14	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-09-28 17:19:42	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-09-28 17:20:01	会员身份：_
+
+2018-09-28 17:20:01	邀请会员ID：_
+
+2018-09-28 17:20:34	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-09-28 17:20:40	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-09-28 17:26:08	获取商品详情链接BEGIN:2018-09-28 17:26:08
+
+2018-09-28 17:26:08	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 17:26:08	获取商品详情链接END:2018-09-28 17:26:08
+
+2018-09-28 17:26:08	获取商品详情链接BEGIN:2018-09-28 17:26:08
+
+2018-09-28 17:26:08	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 17:26:09	获取商品详情链接END:2018-09-28 17:26:09
+
+2018-09-28 17:26:43	获取商品详情链接BEGIN:2018-09-28 17:26:43
+
+2018-09-28 17:26:43	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 17:26:43	获取商品详情链接END:2018-09-28 17:26:43
+
+2018-09-28 17:26:44	获取商品详情链接BEGIN:2018-09-28 17:26:44
+
+2018-09-28 17:26:44	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 17:26:44	获取商品详情链接END:2018-09-28 17:26:44
+
+2018-09-28 17:27:09	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 17:27:10	获取商品详情链接BEGIN:2018-09-28 17:27:10
+
+2018-09-28 17:27:10	获取商品详情链接END:2018-09-28 17:27:10
+
+2018-09-28 17:27:10	获取商品详情链接BEGIN:2018-09-28 17:27:10
+
+2018-09-28 17:27:10	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 17:27:11	获取商品详情链接END:2018-09-28 17:27:11
+
+2018-09-28 17:27:32	获取商品详情链接BEGIN:2018-09-28 17:27:32
+
+2018-09-28 17:27:32	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 17:27:33	获取商品详情链接BEGIN:2018-09-28 17:27:33
+
+2018-09-28 17:27:33	获取商品详情链接END:2018-09-28 17:27:33
+
+2018-09-28 17:27:33	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 17:27:33	获取商品详情链接END:2018-09-28 17:27:33
+
+2018-09-28 17:27:43	304a96e205253a135e775161ba043ee43d8f9b05_1538126863_217333469_S3xLf5nFntbFXxV8r3iFNfRx3Xlnff8n
+
+2018-09-28 17:27:43	tmpStr:304a96e205253a135e775161ba043ee43d8f9b05
+
+2018-09-28 17:27:43	signature:304a96e205253a135e775161ba043ee43d8f9b05
+
+2018-09-28 17:27:43	check:true
+
+2018-09-28 17:27:43	kefu
+
+2018-09-28 17:27:43	小程序用户openid：oHJM341YRCqkivCRASZj3uyrq_Ug
+
+2018-09-28 17:27:51	商品小程序码返回：
+
+2018-09-28 17:27:51	商品小程序码路径：2:"\/www\/wwwroot\/hjks1.zhekoule.com\/addons\/nets_haojk\/cache\/app_goods_qr_1384906480_5.jpg"
+1538126871
+2018-09-28 17:29:07	获取商品详情链接BEGIN:2018-09-28 17:29:07
+
+2018-09-28 17:29:07	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 17:29:07	获取商品详情链接END:2018-09-28 17:29:07
+
+2018-09-28 17:29:07	获取商品详情链接BEGIN:2018-09-28 17:29:07
+
+2018-09-28 17:29:07	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 17:29:07	获取商品详情链接END:2018-09-28 17:29:07
+
+2018-09-28 17:29:12	商品小程序码返回：
+
+2018-09-28 17:29:12	商品小程序码路径：2:"\/www\/wwwroot\/hjks1.zhekoule.com\/addons\/nets_haojk\/cache\/app_goods_qr_27015693754_5.jpg"
+1538126952
+2018-09-28 17:43:21	获取商品详情链接BEGIN:2018-09-28 17:43:21
+
+2018-09-28 17:43:21	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 17:43:21	获取商品详情链接END:2018-09-28 17:43:21
+
+2018-09-28 17:43:21	获取商品详情链接BEGIN:2018-09-28 17:43:21
+
+2018-09-28 17:43:21	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 17:43:21	获取商品详情链接END:2018-09-28 17:43:21
+
+2018-09-28 17:43:30	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 17:43:30	获取商品详情链接BEGIN:2018-09-28 17:43:30
+
+2018-09-28 17:43:30	获取商品详情链接END:2018-09-28 17:43:30
+
+2018-09-28 17:43:30	获取商品详情链接BEGIN:2018-09-28 17:43:30
+
+2018-09-28 17:43:30	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 17:43:31	获取商品详情链接END:2018-09-28 17:43:31
+
+2018-09-28 17:43:45	获取商品详情链接BEGIN:2018-09-28 17:43:45
+
+2018-09-28 17:43:45	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 17:43:45	获取商品详情链接END:2018-09-28 17:43:45
+
+2018-09-28 17:43:45	获取商品详情链接BEGIN:2018-09-28 17:43:45
+
+2018-09-28 17:43:45	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 17:43:45	获取商品详情链接END:2018-09-28 17:43:45
+
+2018-09-28 17:44:07	获取商品详情链接BEGIN:2018-09-28 17:44:07
+
+2018-09-28 17:44:08	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 17:44:08	获取商品详情链接END:2018-09-28 17:44:08
+
+2018-09-28 17:44:08	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 17:44:08	获取商品详情链接BEGIN:2018-09-28 17:44:08
+
+2018-09-28 17:44:08	获取商品详情链接END:2018-09-28 17:44:08
+
+2018-09-28 17:44:18	商品小程序码返回：
+
+2018-09-28 17:44:18	商品小程序码路径：2:"\/www\/wwwroot\/hjks1.zhekoule.com\/addons\/nets_haojk\/cache\/app_goods_qr_30200303404_5.jpg"
+1538127858
+2018-09-28 17:45:12	获取商品详情链接BEGIN:2018-09-28 17:45:12
+
+2018-09-28 17:45:12	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 17:45:13	获取商品详情链接END:2018-09-28 17:45:13
+
+2018-09-28 17:45:13	获取商品详情链接BEGIN:2018-09-28 17:45:13
+
+2018-09-28 17:45:13	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 17:45:13	获取商品详情链接END:2018-09-28 17:45:13
+
+2018-09-28 18:39:58	获取商品详情链接BEGIN:2018-09-28 18:39:58
+
+2018-09-28 18:39:58	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 18:39:58	获取商品详情链接END:2018-09-28 18:39:58
+
+2018-09-28 18:39:59	获取商品详情链接BEGIN:2018-09-28 18:39:59
+
+2018-09-28 18:39:59	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 18:39:59	获取商品详情链接END:2018-09-28 18:39:59
+
+2018-09-28 18:40:10	商品小程序码返回：
+
+2018-09-28 18:40:10	商品小程序码路径：2:"\/www\/wwwroot\/hjks1.zhekoule.com\/addons\/nets_haojk\/cache\/app_goods_qr_16421804510_5.jpg"
+1538131210
+2018-09-28 18:40:49	获取商品详情链接BEGIN:2018-09-28 18:40:49
+
+2018-09-28 18:40:49	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 18:40:49	获取商品详情链接END:2018-09-28 18:40:49
+
+2018-09-28 18:40:50	获取商品详情链接BEGIN:2018-09-28 18:40:50
+
+2018-09-28 18:40:50	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 18:40:50	获取商品详情链接END:2018-09-28 18:40:50
+
+2018-09-28 18:40:52	商品小程序码路径：2:"\/www\/wwwroot\/hjks1.zhekoule.com\/addons\/nets_haojk\/cache\/app_goods_qr_16288740014_5.jpg"
+1538131252
+2018-09-28 18:41:52	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-09-28 18:42:15	获取商品详情链接BEGIN:2018-09-28 18:42:15
+
+2018-09-28 18:42:15	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 18:42:15	获取商品详情链接END:2018-09-28 18:42:15
+
+2018-09-28 18:42:15	获取商品详情链接BEGIN:2018-09-28 18:42:15
+
+2018-09-28 18:42:15	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 18:42:15	获取商品详情链接END:2018-09-28 18:42:15
+
+2018-09-28 18:42:25	商品小程序码返回：
+
+2018-09-28 18:42:25	商品小程序码路径：2:"\/www\/wwwroot\/hjks1.zhekoule.com\/addons\/nets_haojk\/cache\/app_goods_qr_33227961503_5.jpg"
+1538131345
+2018-09-28 18:43:21	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 18:43:21	获取商品详情链接BEGIN:2018-09-28 18:43:21
+
+2018-09-28 18:43:21	获取商品详情链接END:2018-09-28 18:43:21
+
+2018-09-28 18:43:21	获取商品详情链接BEGIN:2018-09-28 18:43:21
+
+2018-09-28 18:43:21	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 18:43:21	获取商品详情链接END:2018-09-28 18:43:21
+
+2018-09-28 18:43:24	商品小程序码路径：2:"\/www\/wwwroot\/hjks1.zhekoule.com\/addons\/nets_haojk\/cache\/app_goods_qr_16421804510_5.jpg"
+1538131404
+2018-09-28 18:53:06	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-09-28 18:54:01	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 18:54:10	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 18:55:03	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 18:55:15	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 18:59:58	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 18:59:59	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 18:59:59	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 19:00:49	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 19:01:04	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 19:01:05	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 19:01:05	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 19:01:06	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 19:05:14	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-09-28 19:10:37	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 19:10:37	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 19:10:37	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 19:10:40	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 19:12:28	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 19:12:28	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 19:12:29	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 19:12:30	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 19:13:29	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 19:13:29	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 19:13:29	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 19:13:33	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 19:17:19	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 19:23:58	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 19:24:33	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 19:32:07	获取商品详情链接BEGIN:2018-09-28 19:32:07
+
+2018-09-28 19:32:07	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 19:32:08	获取商品详情链接END:2018-09-28 19:32:08
+
+2018-09-28 19:32:09	获取商品详情链接BEGIN:2018-09-28 19:32:09
+
+2018-09-28 19:32:09	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 19:32:09	获取商品详情链接END:2018-09-28 19:32:09
+
+2018-09-28 19:32:13	商品小程序码返回：
+
+2018-09-28 19:32:13	商品小程序码路径：2:"\/www\/wwwroot\/hjks1.zhekoule.com\/addons\/nets_haojk\/cache\/app_goods_qr_31936537195_5.jpg"
+1538134333
+2018-09-28 19:33:29	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 19:33:29	获取商品详情链接BEGIN:2018-09-28 19:33:29
+
+2018-09-28 19:33:30	获取商品详情链接END:2018-09-28 19:33:30
+
+2018-09-28 19:33:30	获取商品详情链接BEGIN:2018-09-28 19:33:30
+
+2018-09-28 19:33:30	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 19:33:30	获取商品详情链接END:2018-09-28 19:33:30
+
+2018-09-28 19:33:57	获取商品详情链接BEGIN:2018-09-28 19:33:57
+
+2018-09-28 19:33:57	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 19:33:57	获取商品详情链接END:2018-09-28 19:33:57
+
+2018-09-28 19:33:57	获取商品详情链接BEGIN:2018-09-28 19:33:57
+
+2018-09-28 19:33:57	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 19:33:57	获取商品详情链接END:2018-09-28 19:33:57
+
+2018-09-28 19:34:00	商品小程序码返回：
+
+2018-09-28 19:34:00	商品小程序码路径：2:"\/www\/wwwroot\/hjks1.zhekoule.com\/addons\/nets_haojk\/cache\/app_goods_qr_32772872008_5.jpg"
+1538134440
+2018-09-28 19:34:12	商品小程序码路径：2:"\/www\/wwwroot\/hjks1.zhekoule.com\/addons\/nets_haojk\/cache\/app_goods_qr_32772872008_5.jpg"
+1538134452
+2018-09-28 19:35:17	获取商品详情链接BEGIN:2018-09-28 19:35:17
+
+2018-09-28 19:35:17	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 19:35:17	获取商品详情链接END:2018-09-28 19:35:17
+
+2018-09-28 19:35:17	获取商品详情链接BEGIN:2018-09-28 19:35:17
+
+2018-09-28 19:35:17	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 19:35:18	获取商品详情链接END:2018-09-28 19:35:18
+
+2018-09-28 19:35:23	商品小程序码返回：
+
+2018-09-28 19:35:23	商品小程序码路径：2:"\/www\/wwwroot\/hjks1.zhekoule.com\/addons\/nets_haojk\/cache\/app_goods_qr_29511047669_5.jpg"
+1538134523
+2018-09-28 19:36:37	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 19:37:05	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 19:37:07	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 19:38:11	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 19:38:11	获取商品详情链接BEGIN:2018-09-28 19:38:11
+
+2018-09-28 19:38:12	获取商品详情链接END:2018-09-28 19:38:12
+
+2018-09-28 19:38:12	获取商品详情链接BEGIN:2018-09-28 19:38:12
+
+2018-09-28 19:38:12	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 19:38:12	获取商品详情链接END:2018-09-28 19:38:12
+
+2018-09-28 19:38:31	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 19:38:31	获取商品详情链接BEGIN:2018-09-28 19:38:31
+
+2018-09-28 19:38:31	获取商品详情链接END:2018-09-28 19:38:31
+
+2018-09-28 19:38:32	获取商品详情链接BEGIN:2018-09-28 19:38:32
+
+2018-09-28 19:38:32	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 19:38:32	获取商品详情链接END:2018-09-28 19:38:32
+
+2018-09-28 19:38:33	商品小程序码返回：
+
+2018-09-28 19:38:33	商品小程序码路径：2:"\/www\/wwwroot\/hjks1.zhekoule.com\/addons\/nets_haojk\/cache\/app_goods_qr_10600948432_5.jpg"
+1538134713
+2018-09-28 19:40:06	获取商品详情链接BEGIN:2018-09-28 19:40:06
+
+2018-09-28 19:40:06	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 19:40:07	获取商品详情链接END:2018-09-28 19:40:07
+
+2018-09-28 19:40:07	获取商品详情链接BEGIN:2018-09-28 19:40:07
+
+2018-09-28 19:40:07	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 19:40:07	获取商品详情链接END:2018-09-28 19:40:07
+
+2018-09-28 19:40:13	商品小程序码返回：
+
+2018-09-28 19:40:13	商品小程序码路径：2:"\/www\/wwwroot\/hjks1.zhekoule.com\/addons\/nets_haojk\/cache\/app_goods_qr_27654023948_5.jpg"
+1538134813
+2018-09-28 19:42:17	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 19:42:19	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 19:42:20	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 19:42:43	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 19:42:44	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 19:43:16	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 19:43:17	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 19:43:17	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 19:43:43	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 19:43:43	获取商品详情链接BEGIN:2018-09-28 19:43:43
+
+2018-09-28 19:43:43	获取商品详情链接END:2018-09-28 19:43:43
+
+2018-09-28 19:43:43	获取商品详情链接BEGIN:2018-09-28 19:43:43
+
+2018-09-28 19:43:44	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 19:43:44	获取商品详情链接END:2018-09-28 19:43:44
+
+2018-09-28 19:47:07	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 19:47:15	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 19:59:52	获取商品详情链接BEGIN:2018-09-28 19:59:52
+
+2018-09-28 19:59:52	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 19:59:52	获取商品详情链接END:2018-09-28 19:59:52
+
+2018-09-28 19:59:53	获取商品详情链接BEGIN:2018-09-28 19:59:53
+
+2018-09-28 19:59:53	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 19:59:53	获取商品详情链接END:2018-09-28 19:59:53
+
+2018-09-28 19:59:55	商品小程序码返回：
+
+2018-09-28 19:59:55	商品小程序码路径：2:"\/www\/wwwroot\/hjks1.zhekoule.com\/addons\/nets_haojk\/cache\/app_goods_qr_33014770955_5.jpg"
+1538135995
+2018-09-28 20:10:40	获取商品详情链接BEGIN:2018-09-28 20:10:40
+
+2018-09-28 20:10:40	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 20:10:40	获取商品详情链接END:2018-09-28 20:10:40
+
+2018-09-28 20:10:41	获取商品详情链接BEGIN:2018-09-28 20:10:41
+
+2018-09-28 20:10:41	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 20:10:41	获取商品详情链接END:2018-09-28 20:10:41
+
+2018-09-28 20:10:43	商品小程序码返回：
+
+2018-09-28 20:10:43	商品小程序码路径：2:"\/www\/wwwroot\/hjks1.zhekoule.com\/addons\/nets_haojk\/cache\/app_goods_qr_12972162780_5.jpg"
+1538136643
+2018-09-28 21:16:18	获取商品详情链接BEGIN:2018-09-28 21:16:18
+
+2018-09-28 21:16:18	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 21:16:19	获取商品详情链接END:2018-09-28 21:16:19
+
+2018-09-28 21:16:20	获取商品详情链接BEGIN:2018-09-28 21:16:20
+
+2018-09-28 21:16:20	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 21:16:20	获取商品详情链接END:2018-09-28 21:16:20
+
+2018-09-28 21:46:05	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 21:46:05	获取商品详情链接BEGIN:2018-09-28 21:46:05
+
+2018-09-28 21:46:05	获取商品详情链接END:2018-09-28 21:46:05
+
+2018-09-28 21:46:08	获取商品详情链接BEGIN:2018-09-28 21:46:08
+
+2018-09-28 21:46:08	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 21:46:08	获取商品详情链接END:2018-09-28 21:46:08
+
+2018-09-28 22:09:10	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 22:09:13	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 22:09:13	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 22:09:44	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 22:09:49	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 22:12:41	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 22:14:23	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 22:14:25	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 22:23:34	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 22:23:38	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 22:23:42	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 22:23:45	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 22:24:06	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 22:24:11	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 22:28:21	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 22:28:37	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 22:28:39	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 22:35:01	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 22:35:15	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 22:35:24	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 22:35:24	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 22:35:46	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 22:35:46	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 22:35:46	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 22:35:49	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 22:35:54	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 22:35:56	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 22:36:07	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 22:37:03	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 22:37:25	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 22:37:25	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 22:37:25	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 22:37:35	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 22:37:59	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 22:38:32	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 22:38:32	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 22:39:06	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 22:39:07	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 22:39:07	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 22:39:23	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 22:39:24	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 22:39:32	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 22:39:34	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 22:39:35	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:04:07	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-09-28 23:17:57	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-09-28 23:20:31	c55bfa064b77a2b349606696fd3b57fd930e276f_1538148031_1930287916_S3xLf5nFntbFXxV8r3iFNfRx3Xlnff8n
+
+2018-09-28 23:20:31	tmpStr:c55bfa064b77a2b349606696fd3b57fd930e276f
+
+2018-09-28 23:20:31	signature:c55bfa064b77a2b349606696fd3b57fd930e276f
+
+2018-09-28 23:20:31	check:true
+
+2018-09-28 23:20:31	kefu
+
+2018-09-28 23:20:31	小程序用户openid：oHJM3468M_Olcauz5dcZODmxzUn0
+
+2018-09-28 23:20:38	74e67d56e86b66896ffdc5f4ac4b3494bf74bbd2_1538148038_702647099_S3xLf5nFntbFXxV8r3iFNfRx3Xlnff8n
+
+2018-09-28 23:20:38	tmpStr:74e67d56e86b66896ffdc5f4ac4b3494bf74bbd2
+
+2018-09-28 23:20:38	signature:74e67d56e86b66896ffdc5f4ac4b3494bf74bbd2
+
+2018-09-28 23:20:38	check:true
+
+2018-09-28 23:20:38	kefu
+
+2018-09-28 23:20:38	小程序用户openid：oHJM3468M_Olcauz5dcZODmxzUn0
+
+2018-09-28 23:20:40	4601f0c5bb334b16a6b0826f8211ea16bea4fa1e_1538148040_1125864333_S3xLf5nFntbFXxV8r3iFNfRx3Xlnff8n
+
+2018-09-28 23:20:40	tmpStr:4601f0c5bb334b16a6b0826f8211ea16bea4fa1e
+
+2018-09-28 23:20:40	signature:4601f0c5bb334b16a6b0826f8211ea16bea4fa1e
+
+2018-09-28 23:20:40	check:true
+
+2018-09-28 23:20:40	
+
+2018-09-28 23:20:40	小程序用户openid：oHJM3468M_Olcauz5dcZODmxzUn0
+
+2018-09-28 23:20:53	获取商品详情链接BEGIN:2018-09-28 23:20:53
+
+2018-09-28 23:20:53	转连的京盟：uid:10;1000084020_1476122321
+
+2018-09-28 23:20:54	获取商品详情链接BEGIN:2018-09-28 23:20:54
+
+2018-09-28 23:20:54	获取商品详情链接END:2018-09-28 23:20:54
+
+2018-09-28 23:20:54	转连的京盟：uid:10;1000084020_1476122321
+
+2018-09-28 23:20:54	获取商品详情链接END:2018-09-28 23:20:54
+
+2018-09-28 23:21:18	获取商品详情链接BEGIN:2018-09-28 23:21:18
+
+2018-09-28 23:21:18	转连的京盟：uid:10;1000084020_1476122321
+
+2018-09-28 23:21:18	获取商品详情链接END:2018-09-28 23:21:18
+
+2018-09-28 23:21:18	获取商品详情链接BEGIN:2018-09-28 23:21:18
+
+2018-09-28 23:21:18	转连的京盟：uid:10;1000084020_1476122321
+
+2018-09-28 23:21:19	获取商品详情链接END:2018-09-28 23:21:19
+
+2018-09-28 23:21:32	转连的京盟：uid:10;1000084020_1476122321
+
+2018-09-28 23:21:32	获取商品详情链接BEGIN:2018-09-28 23:21:32
+
+2018-09-28 23:21:32	获取商品详情链接END:2018-09-28 23:21:32
+
+2018-09-28 23:23:14	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:23:15	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:27:03	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:27:11	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:27:14	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:33:13	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:33:13	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:33:14	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:33:28	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:33:36	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:33:37	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:33:37	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:34:03	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:34:06	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:34:06	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:35:11	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:35:50	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:36:20	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:37:48	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:37:48	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:37:49	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:38:01	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:38:09	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:38:11	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:38:11	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:40:41	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:41:04	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:41:06	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:41:06	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:41:18	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:43:56	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-09-28 23:44:09	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-09-28 23:45:20	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-28 23:45:20	获取商品详情链接BEGIN:2018-09-28 23:45:20
+
+2018-09-28 23:45:20	获取商品详情链接END:2018-09-28 23:45:20
+
+2018-09-28 23:46:50	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:46:58	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:47:03	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:47:13	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:47:19	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:47:24	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:47:32	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:47:39	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:48:01	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:48:01	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:48:01	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:48:24	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:48:29	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:48:33	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:48:37	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:48:44	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:48:58	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:49:08	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:49:14	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:49:18	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:49:21	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:49:30	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:49:31	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:49:31	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:49:34	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-28 23:49:37	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-29 07:45:28	转连的京盟：uid:10;1000084020_1476122321
+
+2018-09-29 07:45:28	获取商品详情链接BEGIN:2018-09-29 07:45:28
+
+2018-09-29 07:45:28	获取商品详情链接END:2018-09-29 07:45:28
+
+2018-09-29 09:25:48	获取商品详情链接BEGIN:2018-09-29 09:25:48
+
+2018-09-29 09:25:48	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-29 09:25:48	获取商品详情链接END:2018-09-29 09:25:48
+
+2018-09-29 09:25:49	获取商品详情链接BEGIN:2018-09-29 09:25:49
+
+2018-09-29 09:25:49	转连的京盟：uid:5;1000084020_1476339167
+
+2018-09-29 09:25:49	获取商品详情链接END:2018-09-29 09:25:49
+
+2018-09-29 18:19:17	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-29 18:19:18	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-29 18:19:18	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-29 18:19:24	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-29 18:20:19	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-29 18:20:19	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-29 18:20:39	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-09-29 18:20:41	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-10-01 21:34:36	获取商品详情链接BEGIN:2018-10-01 21:34:36
+
+2018-10-01 21:34:36	转连的京盟：uid:5;1000084020_1476339167
+
+2018-10-01 21:34:36	获取商品详情链接END:2018-10-01 21:34:36
+
+2018-10-01 21:34:43	获取商品详情链接BEGIN:2018-10-01 21:34:43
+
+2018-10-01 21:34:43	转连的京盟：uid:5;1000084020_1476339167
+
+2018-10-01 21:34:43	获取商品详情链接END:2018-10-01 21:34:43
+
+2018-10-01 21:34:58	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-10-08 17:08:54	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-10-08 17:09:06	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-10-08 17:10:37	获取商品详情链接BEGIN:2018-10-08 17:10:37
+
+2018-10-08 17:10:37	转连的京盟：uid:13;1000084020_1476307672
+
+2018-10-08 17:10:37	获取商品详情链接END:2018-10-08 17:10:37
+
+2018-10-08 17:10:38	转连的京盟：uid:13;1000084020_1476307672
+
+2018-10-08 17:10:38	获取商品详情链接BEGIN:2018-10-08 17:10:38
+
+2018-10-08 17:10:38	获取商品详情链接END:2018-10-08 17:10:38
+
+2018-10-08 17:23:27	获取商品详情链接BEGIN:2018-10-08 17:23:27
+
+2018-10-08 17:23:27	转连的京盟：uid:13;1000084020_1476307672
+
+2018-10-08 17:23:27	获取商品详情链接END:2018-10-08 17:23:27
+
+2018-10-08 17:23:28	获取商品详情链接BEGIN:2018-10-08 17:23:28
+
+2018-10-08 17:23:28	转连的京盟：uid:13;1000084020_1476307672
+
+2018-10-08 17:23:28	获取商品详情链接END:2018-10-08 17:23:28
+
+2018-10-08 22:20:58	获取商品详情链接BEGIN:2018-10-08 22:20:58
+
+2018-10-08 22:20:58	转连的京盟：uid:15;1000084020_1476307672
+
+2018-10-08 22:20:58	获取商品详情链接END:2018-10-08 22:20:58
+
+2018-10-08 22:20:58	获取商品详情链接BEGIN:2018-10-08 22:20:58
+
+2018-10-08 22:20:58	转连的京盟：uid:15;1000084020_1476307672
+
+2018-10-08 22:20:58	获取商品详情链接END:2018-10-08 22:20:58
+
+2018-10-09 14:11:14	转连的京盟：uid:5;1000084020_1476339167
+
+2018-10-09 14:11:14	获取商品详情链接BEGIN:2018-10-09 14:11:14
+
+2018-10-09 14:11:14	获取商品详情链接END:2018-10-09 14:11:14
+
+2018-10-09 14:11:14	获取商品详情链接BEGIN:2018-10-09 14:11:14
+
+2018-10-09 14:11:14	转连的京盟：uid:5;1000084020_1476339167
+
+2018-10-09 14:11:14	获取商品详情链接END:2018-10-09 14:11:14
+
+2018-10-09 14:12:41	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-10-09 14:15:32	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-10-09 14:16:32	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-10-09 14:16:36	fd0cb5a0dbad556989e281b4f2d09a06cdbcf0dd_1539065796_471576236_S3xLf5nFntbFXxV8r3iFNfRx3Xlnff8n
+
+2018-10-09 14:16:36	tmpStr:fd0cb5a0dbad556989e281b4f2d09a06cdbcf0dd
+
+2018-10-09 14:16:36	signature:fd0cb5a0dbad556989e281b4f2d09a06cdbcf0dd
+
+2018-10-09 14:16:36	check:true
+
+2018-10-09 14:16:37	kefu
+
+2018-10-09 14:16:37	小程序用户openid：oHJM341YRCqkivCRASZj3uyrq_Ug
+
+2018-10-09 14:17:07	ed842225b2fbb008634698655184a511755e78c7_1539065827_827772598_S3xLf5nFntbFXxV8r3iFNfRx3Xlnff8n
+
+2018-10-09 14:17:07	tmpStr:ed842225b2fbb008634698655184a511755e78c7
+
+2018-10-09 14:17:07	signature:ed842225b2fbb008634698655184a511755e78c7
+
+2018-10-09 14:17:07	check:true
+
+2018-10-09 14:17:07	kefu
+
+2018-10-09 14:17:07	小程序用户openid：oHJM341YRCqkivCRASZj3uyrq_Ug
+
+2018-10-09 14:17:10	de5d85cd060ef60fa4dd520e09086fb17262adb6_1539065830_1224822004_S3xLf5nFntbFXxV8r3iFNfRx3Xlnff8n
+
+2018-10-09 14:17:10	tmpStr:de5d85cd060ef60fa4dd520e09086fb17262adb6
+
+2018-10-09 14:17:10	signature:de5d85cd060ef60fa4dd520e09086fb17262adb6
+
+2018-10-09 14:17:10	check:true
+
+2018-10-09 14:17:10	
+
+2018-10-09 14:17:10	小程序用户openid：oHJM341YRCqkivCRASZj3uyrq_Ug
+
+2018-10-09 14:17:10	转连的京盟：uid:5;1000084020_1476339167
+
+2018-10-09 23:45:47	转连的京盟：uid:15;1000084020_1476307672
+
+2018-10-09 23:45:47	获取商品详情链接BEGIN:2018-10-09 23:45:47
+
+2018-10-09 23:45:47	获取商品详情链接END:2018-10-09 23:45:47
+
+2018-10-09 23:45:47	获取商品详情链接BEGIN:2018-10-09 23:45:47
+
+2018-10-09 23:45:47	转连的京盟：uid:15;1000084020_1476307672
+
+2018-10-09 23:45:47	获取商品详情链接END:2018-10-09 23:45:47
+
+2018-10-10 08:19:38	获取商品详情链接BEGIN:2018-10-10 08:19:38
+
+2018-10-10 08:19:38	转连的京盟：uid:8;1000084020_1476307672
+
+2018-10-10 08:19:38	获取商品详情链接END:2018-10-10 08:19:38
+
+2018-10-10 08:19:38	获取商品详情链接BEGIN:2018-10-10 08:19:38
+
+2018-10-10 08:19:38	转连的京盟：uid:8;1000084020_1476307672
+
+2018-10-10 08:19:38	获取商品详情链接END:2018-10-10 08:19:38
+
+2018-10-10 08:20:03	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-10-10 08:46:51	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-10-10 08:52:31	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-10-10 08:52:50	会员身份：_
+
+2018-10-10 08:52:50	邀请会员ID：_
+
+2018-10-10 08:56:04	获取商品详情链接BEGIN:2018-10-10 08:56:04
+
+2018-10-10 08:56:04	转连的京盟：uid:14;1000084020_1476339168
+
+2018-10-10 08:56:05	获取商品详情链接END:2018-10-10 08:56:05
+
+2018-10-10 08:56:06	获取商品详情链接BEGIN:2018-10-10 08:56:06
+
+2018-10-10 08:56:06	转连的京盟：uid:14;1000084020_1476339168
+
+2018-10-10 08:56:06	获取商品详情链接END:2018-10-10 08:56:06
+
+2018-10-11 08:44:34	获取商品详情链接BEGIN:2018-10-11 08:44:34
+
+2018-10-11 08:44:34	转连的京盟：uid:13;1000084020_1476307672
+
+2018-10-11 08:44:34	获取商品详情链接END:2018-10-11 08:44:34
+
+2018-10-11 08:44:34	获取商品详情链接BEGIN:2018-10-11 08:44:34
+
+2018-10-11 08:44:34	转连的京盟：uid:13;1000084020_1476307672
+
+2018-10-11 08:44:35	获取商品详情链接END:2018-10-11 08:44:35
+
+2018-10-11 08:45:09	获取商品详情链接BEGIN:2018-10-11 08:45:09
+
+2018-10-11 08:45:09	转连的京盟：uid:13;1000084020_1476307672
+
+2018-10-11 08:45:10	获取商品详情链接END:2018-10-11 08:45:10
+
+2018-10-11 08:45:11	转连的京盟：uid:13;1000084020_1476307672
+
+2018-10-11 08:45:11	获取商品详情链接BEGIN:2018-10-11 08:45:11
+
+2018-10-11 08:45:11	获取商品详情链接END:2018-10-11 08:45:11
+
+2018-10-11 15:02:40	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-10-12 22:28:38	获取商品详情链接BEGIN:2018-10-12 22:28:38
+
+2018-10-12 22:28:38	转连的京盟：uid:5;1000084020_1476339167
+
+2018-10-12 22:28:38	获取商品详情链接END:2018-10-12 22:28:38
+
+2018-10-12 22:28:38	获取商品详情链接BEGIN:2018-10-12 22:28:38
+
+2018-10-12 22:28:38	转连的京盟：uid:5;1000084020_1476339167
+
+2018-10-12 22:28:39	获取商品详情链接END:2018-10-12 22:28:39
+
+2018-10-12 22:28:41	获取商品详情链接BEGIN:2018-10-12 22:28:41
+
+2018-10-12 22:28:41	转连的京盟：uid:5;1000084020_1476339167
+
+2018-10-12 22:28:42	获取商品详情链接END:2018-10-12 22:28:42
+
+2018-10-12 22:28:42	获取商品详情链接BEGIN:2018-10-12 22:28:42
+
+2018-10-12 22:28:42	转连的京盟：uid:5;1000084020_1476339167
+
+2018-10-12 22:28:42	获取商品详情链接END:2018-10-12 22:28:42
+
+2018-10-12 22:29:00	转连的京盟：uid:5;1000084020_1476339167
+
+2018-10-12 22:29:00	获取商品详情链接BEGIN:2018-10-12 22:29:00
+
+2018-10-12 22:29:00	获取商品详情链接END:2018-10-12 22:29:00
+
+2018-10-12 22:29:00	获取商品详情链接BEGIN:2018-10-12 22:29:00
+
+2018-10-12 22:29:00	转连的京盟：uid:5;1000084020_1476339167
+
+2018-10-12 22:29:01	获取商品详情链接END:2018-10-12 22:29:01
+
+2018-10-12 22:29:10	商品小程序码返回：
+
+2018-10-12 22:29:10	商品小程序码路径：2:"\/www\/wwwroot\/hjks1.zhekoule.com\/addons\/nets_haojk\/cache\/app_goods_qr_33220367691_5.jpg"
+1539354550
+2018-10-12 22:29:15	商品小程序码路径：2:"\/www\/wwwroot\/hjks1.zhekoule.com\/addons\/nets_haojk\/cache\/app_goods_qr_33220367691_5.jpg"
+1539354555
+2018-10-12 22:29:19	商品小程序码路径：2:"\/www\/wwwroot\/hjks1.zhekoule.com\/addons\/nets_haojk\/cache\/app_goods_qr_33220367691_5.jpg"
+1539354559
+2018-10-12 22:29:24	商品小程序码路径：2:"\/www\/wwwroot\/hjks1.zhekoule.com\/addons\/nets_haojk\/cache\/app_goods_qr_33220367691_5.jpg"
+1539354564
+2018-10-15 22:57:16	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-10-17 18:59:32	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-10-17 19:00:59	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-10-19 12:45:59	转连的京盟：uid:13;1000084020_1476307672
+
+2018-10-19 12:45:59	获取商品详情链接BEGIN:2018-10-19 12:45:59
+
+2018-10-19 12:45:59	获取商品详情链接END:2018-10-19 12:45:59
+
+2018-10-19 12:46:00	获取商品详情链接BEGIN:2018-10-19 12:46:00
+
+2018-10-19 12:46:00	转连的京盟：uid:13;1000084020_1476307672
+
+2018-10-19 12:46:00	获取商品详情链接END:2018-10-19 12:46:00
+
+2018-10-19 12:46:21	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-10-22 02:38:08	c754820da850250c5a10ef9e5a2fd39247cf3411_1540147088_358480993_S3xLf5nFntbFXxV8r3iFNfRx3Xlnff8n
+
+2018-10-22 02:38:08	tmpStr:c754820da850250c5a10ef9e5a2fd39247cf3411
+
+2018-10-22 02:38:08	signature:c754820da850250c5a10ef9e5a2fd39247cf3411
+
+2018-10-22 02:38:08	check:true
+
+2018-10-22 02:38:08	
+
+2018-10-22 02:38:08	小程序用户openid：oHJM34yUhdPKyr5CMXsIZzypSISQ
+
+2018-10-22 02:38:09	a9aac6417e5edb02e5ec1eb2403e793d138c7354_1540147089_1065132240_S3xLf5nFntbFXxV8r3iFNfRx3Xlnff8n
+
+2018-10-22 02:38:09	tmpStr:a9aac6417e5edb02e5ec1eb2403e793d138c7354
+
+2018-10-22 02:38:09	signature:a9aac6417e5edb02e5ec1eb2403e793d138c7354
+
+2018-10-22 02:38:09	check:true
+
+2018-10-22 02:38:10	
+
+2018-10-22 02:38:10	小程序用户openid：oHJM34yUhdPKyr5CMXsIZzypSISQ
+
+2018-10-22 22:33:25	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-10-23 13:09:59	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-10-23 13:09:59	生成小程序推广海报页面：;wxapppage:haojk/pages/index/index
+
+2018-11-01 14:32:15	消息订阅：subscribe
+
+2018-11-01 14:32:41	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-11-01 14:32:41	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-11-01 14:32:43	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-11-01 14:32:51	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-11-01 14:33:06	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-11-01 14:33:08	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-11-01 14:33:11	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-11-01 14:33:13	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"
+
+2018-11-01 14:33:14	授权信息："{\"message\":\"success\",\"data\":{\"ip\":\"47.104.185.206\",\"hjkgzh\":0,\"hjkxcx\":1,\"hjkgwq\":0,\"hjkpdd\":0},\"status_code\":200}"

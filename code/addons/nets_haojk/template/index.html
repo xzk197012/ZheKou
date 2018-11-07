@@ -1,0 +1,181 @@
+{template 'common/header'}
+<div class="main">
+    {template 'common/menu'}
+    <form action="" method="post" class="form-horizontal form" enctype="multipart/form-data" id="form1">
+        <div class="panel panel-default" style="">
+            <div class="panel-heading">基础设置</div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <label class="col-xs-12 col-sm-3 col-md-2 control-label">每天摇一摇次数</label>
+                    <div class="col-sm-9 col-xs-12">
+                            <input type="text" name="everyday_shakenum" value="{$record['everyday_shakenum']}" class="form-control">
+                        <div class="help-block">设置会员每天摇一摇的次数，0为不限制</div>
+                    </div>
+                </div>
+                <div class="form-group" style="display: none;">
+                    <label class="col-xs-12 col-sm-3 col-md-2 control-label">红包金额随机</label>
+                    <div class="col-sm-9 col-xs-12">
+                        <div class="input-group">
+                            <input type="text" name="rand_min" value="{$record['rand_min']}" placeholder="随机最小金额" class="form-control">
+                            <span class="input-group-addon">元 到</span>
+                            <input type="text" name="rand_max" value="{$record['rand_max']}" placeholder="随机最大金额"  class="form-control">
+                            <span class="input-group-addon">元</span>
+                        </div>
+                        <div class="help-block">红包随机范围</div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-xs-12 col-sm-3 col-md-2 control-label">设备销售提成</label>
+                    <div class="col-sm-9 col-xs-12">
+                        <div class="input-group">
+                            <span class="input-group-addon">一级</span>
+                            <input type="text" name="dev_commission" value="{$record['dev_commission']}" placeholder="一级提多少元" class="form-control">
+                            <span class="input-group-addon">元，二级</span><input type="text" name="dev_commission2" value="{$record['dev_commission2']}" placeholder="二级提多少元" class="form-control">
+                            <span class="input-group-addon">元</span>
+                        </div>
+                        <div class="help-block">售出一台设备会员的上级提多少元</div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-xs-12 col-sm-3 col-md-2 control-label">设备广告提成</label>
+                    <div class="col-sm-9 col-xs-12">
+                        <div class="input-group">
+                            <span class="input-group-addon">一级</span>
+                            <input type="text" name="dev_adcommission" value="{$record['dev_adcommission']}" placeholder="一级粉红的百分比" class="form-control">
+                            <span class="input-group-addon">%，二级</span>
+                            <input type="text" name="dev_adcommission2" value="{$record['dev_adcommission2']}" placeholder="二级分红的百分比" class="form-control">
+                            <span class="input-group-addon">%</span>
+                        </div>
+                        <div class="help-block">设备中广告收益提成比</div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-xs-12 col-sm-3 col-md-2 control-label">模板消息通知</label>
+                    <div class="col-sm-9 col-xs-12">
+                        <input type="text" name="template_msg1" maxlength="50" class="form-control" value="{$record['template_msg1']}">
+                        <div class="help-block">模版库搜“任务处理通知”，模版消息ID：“OPENTM200605630” </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-xs-12 col-sm-3 col-md-2 control-label">提现手续费</label>
+                    <div class="col-sm-9 col-xs-12">
+                        <div class="input-group">
+                            <input type="text" name="cash_fee" maxlength="5" class="form-control" value="{$record['cash_fee']}">
+                            <span class="input-group-addon">%, 最多</span>
+                            <input type="text" name="cash_maxfee" maxlength="5" class="form-control" value="{$record['cash_maxfee']}">
+                            <span class="input-group-addon">元</span>
+                        </div>
+                        <div class="help-block">设置提现手续费 </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">分享设置</div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <label class="col-xs-12 col-sm-4 col-md-3 col-lg-2 control-label">缩略图</label>
+                    <div class="col-sm-8 col-xs-12">
+                        <div class="form-group">
+                            {php load()->func('tpl')}
+                            {php echo tpl_form_field_image('share_img',$record['share_img'])}
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-xs-12 col-sm-3 col-md-2 control-label">分享标题</label>
+                    <div class="col-sm-8 col-xs-12">
+                        <textarea name="share_title" class="form-control">{$record['share_title']}</textarea>
+                        <div class="help-block">分享到朋友圈的标题 </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-xs-3 col-sm-3 col-md-2 control-label">分享描述</label>
+                    <div class="col-sm-8 col-xs-12">
+                        <textarea name="share_desc" class="form-control">{$record['share_desc']}</textarea>
+                        <div class="help-block">分享到朋友圈的描述 </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-xs-3 col-sm-3 col-md-2 control-label">新手攻略</label>
+                    <div class="col-sm-8 col-xs-12">
+                        {php echo tpl_ueditor('help', $record['help']);}
+                        <div class="help-block">新手攻略 </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel panel-default">
+            <div class="panel-heading">微信支付设置</div>
+            <div class="panel-body">
+                <div id="certs" style="">
+                    <div class="form-group">
+                        <label class="col-xs-12 col-sm-3 col-md-2 control-label">商户ID</label>
+                        <div class="col-sm-9 col-xs-12">
+                            <input type="text" name="mchid" style="max-width:350px;" maxlength="10" class="form-control" value="{$record['mchid']}">
+                            <div class="help-block">微信支付的商户mchid ，用来给会员提现打款用  </div>
+                        </div>
+                    </div>
+                    <div class="form-group" style="display:none;">
+                        <label class="col-xs-12 col-sm-3 col-md-2 control-label">CERT证书文件</label>
+                        <div class="col-sm-9 col-xs-12">
+                            <input type="file" name="weixin_cert_file" class="form-control"/>
+                            <span class="help-block">
+							<span class="label label-danger">{if $iscert==1}已上传{else}未上传{/if}</span>
+                            下载证书 cert.zip 中的 apiclient_cert.pem 文件
+							</span>
+                        </div>
+                    </div>
+                    <div class="form-group" style="display:none;">
+                        <label class="col-xs-12 col-sm-3 col-md-2 control-label">KEY密钥文件</label>
+                        <div class="col-sm-9 col-xs-12">
+                            <input type="file" name="weixin_key_file" class="form-control">
+                            <span class="help-block">
+                                <span class="label label-danger">{if $iskey==1}已上传{else}未上传{/if}</span>
+                                下载证书 cert.zip 中的 apiclient_key.pem 文件
+                            </span>
+                        </div>
+                    </div>
+                    <div class="form-group" style="display:none;">
+                        <label class="col-xs-12 col-sm-3 col-md-2 control-label">ROOT文件</label>
+                        <div class="col-sm-9 col-xs-12">
+                            <input type="file" name="weixin_root_file" class="form-control">
+                            <span class="help-block">
+                                <span class="label label-danger">{if $isca==1}已上传{else}未上传{/if}</span>
+                                下载证书 cert.zip 中的 rootca.pem 文件
+                            </span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-xs-12 col-sm-3 col-md-2 control-label">商户支付证书</label>
+                        <div class="col-sm-9 col-xs-12">
+                            <textarea class="form-control" name="cert" rows="8" placeholder="为保证安全性, 不显示证书内容. 若要修改, 请直接输入"></textarea>
+                            <span class="help-block">从商户平台上下载支付证书, 解压并取得其中的 <mark>apiclient_cert.pem</mark> 用记事本打开并复制文件内容, 填至此处</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-xs-12 col-sm-3 col-md-2 control-label">支付证书私钥</label>
+                        <div class="col-sm-9 col-xs-12">
+                            <textarea class="form-control" name="key" rows="8" placeholder="为保证安全性, 不显示证书内容. 若要修改, 请直接输入"></textarea>
+                            <span class="help-block">从商户平台上下载支付证书, 解压并取得其中的 <mark>apiclient_key.pem</mark> 用记事本打开并复制文件内容, 填至此处</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-xs-12 col-sm-3 col-md-2 control-label">支付根证书</label>
+                        <div class="col-sm-9 col-xs-12">
+                            <textarea class="form-control" name="ca" rows="8" placeholder="为保证安全性, 不显示证书内容. 若要修改, 请直接输入"></textarea>
+                            <span class="help-block">从商户平台上下载支付证书, 解压并取得其中的 <mark>rootca.pem</mark> 用记事本打开并复制文件内容, 填至此处</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form-group col-sm-12">
+            <input type="hidden" name="op" value="post"/>
+            <input type="submit" name="submit" value="提交" class="btn btn-primary col-lg-1" />
+            <input type="hidden" name="token" value="{$_W['token']}" />
+        </div>
+    </form>
+</div>
+{template 'common/footer'}

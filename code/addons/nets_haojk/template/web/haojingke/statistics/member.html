@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<link href="./resource/css/bootstrap.min.css?v=20180110" rel="stylesheet">
+{template 'haojingke/common/header'}
+<body>
+<div class="x-body">
+    <div class="layui-row">
+        <form action="" method="get"  enctype="multipart/form-data" class="layui-form layui-form-pane layui-col-md12">
+            <input type="hidden" name="m" value="nets_haojk">
+            <input type="hidden" name="do" value="web">
+            <input type="hidden" name="r" value="statistics.member">
+            <input type="hidden" name="a" value="entry">
+            <input type="hidden" name="c" value="site">
+
+            <div class="layui-form-item">
+                <div class="layui-inline">
+                    <label class="layui-form-label">日期选择</label>
+                    <div class="layui-input-inline-w100">
+                        <select id='days' name="days" lay-filter="days">
+                            <option value=""  {if empty($_GPC['days']) } selected {/if}>按日期</option>
+                            <option value="7"  {if $_GPC['days']==7}selected{/if}>7天</option>
+                            <option value="14"  {if $_GPC['days']==14}selected{/if}>14天</option>
+                            <option value="30"  {if $_GPC['days']==30}selected{/if}>30天</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="layui-inline">
+                    <label class="layui-form-label">年份</label>
+                    <div class="layui-input-inline-w100">
+                        <select id='year' name="year" lay-filter="year">
+                            <option value=''>年份</option>
+                            {loop $years $y}
+                            <option value="{$y}"  {if empty($_GPC['year'])?$y == date("Y"):$_GPC['year']==$y}selected="true"{/if}>{$y}年</option>
+                            {/loop}
+
+                        </select>
+                    </div>
+                </div>
+                <div class="layui-inline">
+                    <label class="layui-form-label">月份</label>
+                    <div class="layui-input-inline-w100">
+                        <select id='month' name="mouth"  lay-filter="mouth">
+                            <option value=' '>月份</option>
+                            {loop $mouths $m}
+                            <option value="{$m}"  {if empty($_GPC['mouth'])?$m == date("m"):$_GPC['mouth']==$m}selected="true"{/if}>{$m}月</option>
+                            {/loop}
+                        </select>
+                    </div>
+                </div>
+                <div class="layui-inline">
+                    <button class="layui-btn"  lay-submit="" lay-filter="sreach"><i class="layui-icon">&#xe615;</i></button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div>
+
+        <div id="container" style="min-width: 800px; height: 400px; margin: 0 auto"></div>
+    </div>
+</div>
+</body>
+</html>
+
+<script src="{MODULE_URL}template/web/style/highcharts.js"></script>
+<script>
+    $(function () {
+        $('#container').highcharts({
+            chart: {
+                type: 'line'
+            },
+            title: {
+                text: '{$charttitle}',
+            },
+            subtitle: {
+                text: ''
+            },
+            colors: [
+                '#0061a5',
+                '#ff0000'
+            ],
+            xAxis: {
+                categories: [    {loop $data $key $row}
+                    {if $key>0},{/if}"{$row['date']}"
+                    {/loop}]
+            },
+            yAxis: {
+                title: {
+                    text: '人数'
+                },allowDecimals:false
+            },
+            tooltip: {
+                enabled: false,
+                formatter: function() {
+                    return '<b>'+ this.series.name +'</b><br>'+this.x +': '+ this.y +'°C';
+                }
+            },
+            plotOptions: {
+                line: {
+                    dataLabels: {
+                        enabled: true
+                    },
+                    enableMouseTracking: false
+                }
+            },
+            series: [
+                {
+                    name: '会员',
+                    data: [
+                        {loop $data $key $row}
+                        {if $key>0},{/if}{$row['num']}
+                        {/loop}
+                    ]
+                } ]
+        });
+    });
+</script>

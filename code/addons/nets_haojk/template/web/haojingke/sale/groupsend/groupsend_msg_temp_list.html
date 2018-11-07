@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<link href="./resource/css/bootstrap.min.css?v=20180110" rel="stylesheet">
+{template 'haojingke/common/header'}
+<body>
+<div class="x-body">
+    <xblock>
+        <button class="layui-btn layui-btn-normal" type="button" onclick="hjk_dialog_show('新建消息模板',' {php echo webUrl('sale/groupsend/groupsend_msg_temp_add');}')" >新建消息模板</button>
+    </xblock>
+    <table class="layui-table">
+        <tbody>
+        <tr>
+            <th>任务标题</th>
+            <th >任务名称</th>
+            <th>任务类型</th>
+            <th >任务处理结果</th>
+            <th >备注</th>
+            <th >创建时间</th>
+            <th >操作</th>
+        </tr>
+        {loop $msc_data $r}
+        <tr>
+            <td style="color:{$r['titlecolor']}"> {$r['title']}</td>
+            <td style="color:{$r['tasknamecolor']}"> {$r['taskname']}</td>
+            <td style="color:{$r['tasktypecolor']}"> {$r['tasktype']}</td>
+            <td style="color:{$r['taskresultcolor']}"> {$r['taskresult']}</td>
+            <td style="color:{$r['remarkcolor']}"> {$r['remark']}</td>
+            <td><?php echo date("Y-m-d H:i:s",$r['createtime'])?></td>
+            <td class="td-manage">
+                <a onclick="send_single({$r['id']})"  href="javascript:;" class="layui-btn   layui-btn-mini  layui-btn-normal" ><i class="iconfont">&#xe6ad;</i> 单发消息</a>
+                <a onclick="hjk_dialog_show('普通模板消息加入群发',' {php echo webUrl('sale/groupsend/groupsend_msg_add');}&mid={$r['id']}')"  href="javascript:;" class="layui-btn   layui-btn-mini  layui-btn-normal" ><i class="iconfont">&#xe6b9;</i> 加入消息</a>
+                <br><br>
+                <a onclick="hjk_dialog_show('编辑消息模板',' {php echo webUrl('sale/groupsend/groupsend_msg_temp_add');}&mid={$r['id']}')"  href="javascript:;" class="layui-btn   layui-btn-mini  layui-btn-normal" ><i class="iconfont">&#xe69e;</i> 编辑模板</a>
+                <a onclick="groupsend_delete('{$r['id']}')" href="javascript:;" class="layui-btn   layui-btn-mini  layui-btn-danger" ><i class="iconfont">&#xe69d;</i> 删除</a>
+            </td>
+        </tr>
+        {/loop}
+        </tbody>
+    </table>
+
+
+</div>
+</body>
+</html>
+
+<script>
+    /*单发消息*/
+    function send_single(id){
+        //prompt层
+        layer.prompt({title: '请输入用户的openid！', formType: 0}, function(openid, index){
+            if(openid==''){
+                layer.msg("请要分配用户的openid");
+                return false;
+            }
+            var loadii = layer.load();
+            var ajaxurl="<?php echo webUrl('sale/groupsend/groupsend_msg_send_single').'&id='?>"+id+"&openid="+openid;
+            $.post(ajaxurl,function(res){
+                var res=JSON.parse(res);
+                layer.close(loadii);
+                if(res.status==1){
+                    layer.alert(res.result.message, {icon: 6,closeBtn: 0},function () {
+                        location.href=location.href;
+                    });
+                }else{
+                    layer.msg("操作失败");
+                }
+            });
+            layer.close(index);
+        });
+    }
+    /*删除*/
+    function groupsend_delete(id){
+        layer.confirm('删除后不可恢复,确认要删除么？',function(index){
+            var loadii = layer.load();
+            var ajaxurl="<?php echo webUrl('sale/groupsend/groupsend_msg_temp_delete').'&mid='?>"+id;
+            $.post(ajaxurl,function(res){
+                var res=JSON.parse(res);
+                layer.close(loadii);
+                if(res.status==1){
+                    layer.alert(res.result.message, {icon: 6,closeBtn: 0},function () {
+                        location.href=location.href;
+                    });
+                }else{
+                    layer.msg("操作失败");
+                }
+            });
+        });
+    }
+
+</script>

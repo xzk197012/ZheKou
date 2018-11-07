@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<link href="./resource/css/bootstrap.min.css?v=20180110" rel="stylesheet">
+{template 'haojingke/common/header'}
+<body>
+<div class="x-body">
+    <div class="layui-row">
+        <form action="" method="get"  enctype="multipart/form-data" class="layui-form layui-form-pane layui-col-md12">
+            <input type="hidden" name="m" value="nets_haojk">
+            <input type="hidden" name="do" value="web">
+            <input type="hidden" name="r" value="member.member_subordinate">
+            <input type="hidden" name="level" value="{$_GPC['level']}">
+            <input type="hidden" name="memberid" value="{$_GPC['memberid']}">
+            <input type="hidden" name="a" value="entry">
+            <input type="hidden" name="c" value="site">
+
+            <div class="layui-form-item">
+                <div class="layui-inline">
+                    <label class="layui-form-label">日期范围</label>
+                    <div class="layui-input-inline">
+                        <input class="layui-input" placeholder="日期范围" name="daterange" id="daterange" value="{$_GPC['daterange']}">
+                    </div>
+                </div>
+                <div class="layui-inline">
+                    <label class="layui-form-label">身份</label>
+                    <div class="layui-input-inline">
+                        <select   id="type" name="type">
+                            <option value=""{if $_GPC['type']==""}selected="true"{/if}>全部</option>
+                            <option value="1" {if $_GPC['type']==1}selected="true"{/if}>会员</option>
+                            <option value="2" {if $_GPC['type']==2}selected="true"{/if}>盟主</option>
+
+                        </select>
+                    </div>
+                </div>
+                <div class="layui-inline">
+                    <label class="layui-form-label">关键字</label>
+                    <div class="layui-input-inline">
+                        <input type="text" value="{$_GPC['keyword']}"  name="keyword"  placeholder="昵称、openid、会员ID" autocomplete="off" class="layui-input">
+                    </div>
+                    <button class="layui-btn"  lay-submit="" lay-filter="sreach"><i class="layui-icon">&#xe615;</i></button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <!--<xblock>-->
+    <!--<button class="layui-btn layui-btn-danger" onclick="delAll()"><i class="layui-icon"></i>批量禁用</button>-->
+    <!--<button class="layui-btn" onclick="hjk_dialog_show('添加','{php echo webUrl('sysset/gradefy/add');}')"><i class="layui-icon"></i>添加</button>-->
+    <!--<span class="x-right" style="line-height:40px">共有数据 {$allcount} 条</span>-->
+    <!--</xblock>-->
+    <table class="layui-table">
+        <thead>
+        <tr>
+            <th >会员ID</th>
+            <th >会员</th>
+            <th>类型</th>
+            <th>等级</th>
+            <th>积分/余额</th>
+            <th>时间</th>
+        </tr>
+        </thead>
+        <tbody>
+        {loop $list $r}
+        <tr>
+            <td class="text-center">
+                ID:{$r['memberid']}
+
+            </td>
+            <td class="text-left">
+
+                {if !empty($r['avatar'])}
+                <img src="{php echo str_replace('132132','132',tomedia($r['avatar']))}" style='width:30px;height:30px;padding:1px;border:1px solid #ccc' />
+
+                {/if}
+
+                <span style="font-size:11px">
+                        {$r['nickname']}
+                        [邀请人:{$r['from_uid']}-<?php echo get_fromnickname($r['from_uid'])?>]</span>
+                <br>
+                {$r['openid']}
+            </td>
+            <td class="text-center">
+                {if $r['type']==0}会员{else}盟主{/if}
+            </td>
+            <td class="text-center">
+                {if $r['level'] == 0}普通{elseif $r['level'] == 1}白银{elseif $r['level'] == 2} 黄金{elseif $r['level'] == 3}铂金 {elseif $r['level'] == 4}钻石{/if}
+            </td>
+            <td class="text-center">
+                {$r['credit1']}/{$r['credit2']}
+            </td>
+            <td class="text-center">
+                <?php echo date("Y-m-d H:i:s",$r['created_at'])?>
+            </td>
+        </tr>
+        {/loop}
+        </tbody>
+    </table>
+
+    {$pager}
+
+</div>
+</body>
+</html>
+
